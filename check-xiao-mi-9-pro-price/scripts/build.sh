@@ -2,4 +2,5 @@
 
 set -ex
 
+yarn
 node index.js
