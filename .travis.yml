@@ -17,7 +17,13 @@ jobs:
   include:
     - stage: Build
       script:
-        - ./build_main.sh
+        - cd check-xiao-mi-9-pro-price
+        -   scripts/build.sh
+        - cd ..
+
+        - cd taobao-item-monitor
+        -   scripts/build.sh
+        - cd ..
 
     - stage: Merge
       script:
