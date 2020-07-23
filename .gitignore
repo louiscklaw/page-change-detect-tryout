@@ -1,5 +1,6 @@
 .env
 
+*.png
 **/node_modules
 **/build
 
