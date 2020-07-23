@@ -18,11 +18,13 @@ jobs:
     - stage: Build
       script:
         - cd check-xiao-mi-9-pro-price
-        -   scripts/build.sh
+        - yarn
+        - node index.js
         - cd ..
 
         - cd taobao-item-monitor
-        -   scripts/build.sh
+        - yarn
+        - node index.js
         - cd ..
 
     - stage: Merge
