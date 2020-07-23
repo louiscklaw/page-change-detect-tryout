@@ -14,13 +14,17 @@ cache:
 
 jobs:
   include:
-    - stage: Build
+    - stage: check
+      name: xiao-mi price
       script:
         - cd check-xiao-mi-9-pro-price
         - yarn
         - node index.js
         - cd ..
 
+    - stage: check
+      name: taobao item price
+      script:
         - cd taobao-item-monitor
         - yarn
         - node index.js

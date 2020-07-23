@@ -26,7 +26,7 @@ async function taobaoItemCheck() {
       throw error
 
     }else{
-      process.exit()
+      process.exit(99)
     }
   }
 
