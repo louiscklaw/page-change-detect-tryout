@@ -18,7 +18,7 @@ async function taobaoItemCheck() {
     await page.goto('https://item.taobao.com/item.htm?spm=a230r.1.14.271.57d92d26yyBaXB&id=611982217209&ns=1&abbucket=6#detail');
     await page.screenshot({path: 'taobao.png'});
 
-    await page.waitFor(5000);
+    await page.waitFor(10000);
     await page.waitForSelector('#sufei-dialog-close')
     await page.click('#sufei-dialog-close');
     await page.screenshot({path: 'taobao1.png'});
