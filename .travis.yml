@@ -75,11 +75,11 @@ jobs:
         - node index.js
         - cd ..
 
-        # jobsdb-qa-monitor-tryout start
-        - cd jobsdb-qa-monitor-tryout
-        - yarn
-        - node index.js
-        - cd ..
+        # # jobsdb-qa-monitor-tryout start
+        # - cd jobsdb-qa-monitor-tryout
+        # - yarn
+        # - node index.js
+        # - cd ..
 
         #collect result and save to orphan branch
         - export TMP_DIR=$(mktemp -d)
@@ -90,8 +90,12 @@ jobs:
 
         -   rm .git/index
         -   git clean -fdx
-        -   cp $TRAVIS_BUILD_DIR/jobsdb-qa-monitor-tryout/jobsdb.png
-        -   git add jobsdb.png
+        -   cp $TRAVIS_BUILD_DIR/check-xiao-mi-9-pro-price/wikipedia-helloworld.png .
+        -   cp $TRAVIS_BUILD_DIR/taobao-item-monitor/taobao.png .
+
+        -   git add wikipedia-helloworld.png
+        -   git add taobao.png
+
         -   git commit -m"update jobsdb screenshot,"
         -   git push -f -u origin page-screenshot
 
