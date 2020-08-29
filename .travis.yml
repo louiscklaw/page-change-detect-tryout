@@ -31,6 +31,14 @@ jobs:
         - node index.js
         - cd ..
 
+    - stage: helloworld-tryout
+      name: helloworld-tryout
+      script:
+        - cd helloworld-tryout
+        - yarn
+        - node index.js
+        - cd ..
+
     - stage: Unit_test
       script:
         - cd check-xiao-mi-9-pro-price
