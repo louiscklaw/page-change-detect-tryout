@@ -47,6 +47,22 @@ jobs:
         - node index.js
         - cd ..
 
+        #Display Firefox
+        - export TMP_DIR=$(mktemp -d)
+        - cd $TMP_DIR
+        -   git clone --depth=1 https://$GITHUB_TOKEN@github.com/louiscklaw/page-change-detect-tryout.git .
+
+        -   git checkout --orphan page-screenshot
+
+        -   rm .git/index
+        -   git clean -fdx
+        -   cp $TRAVIS_BUILD_DIR/jobsdb-qa-monitor-tryout/jobsdb.png
+        -   git add jobsdb.png
+        -   git commit -m"update jobsdb screenshot,"
+        -   git push -f -u origin page-screenshot
+
+        - cd -
+
     - stage: Unit_test
       script:
         - cd check-xiao-mi-9-pro-price
@@ -58,6 +74,42 @@ jobs:
         - yarn
         - node index.js
         - cd ..
+
+        # jobsdb-qa-monitor-tryout start
+        - cd jobsdb-qa-monitor-tryout
+        - yarn
+        - node index.js
+        - cd ..
+
+        #Display Firefox
+        - export TMP_DIR=$(mktemp -d)
+        - cd $TMP_DIR
+        -   git clone --depth=1 https://$GITHUB_TOKEN@github.com/louiscklaw/page-change-detect-tryout.git .
+
+        -   git checkout --orphan page-screenshot
+
+        -   rm .git/index
+        -   git clean -fdx
+        -   cp $TRAVIS_BUILD_DIR/jobsdb-qa-monitor-tryout/jobsdb.png
+        -   git add jobsdb.png
+        -   git commit -m"update jobsdb screenshot,"
+        -   git push -f -u origin page-screenshot
+
+        - cd -
+        # jobsdb-qa-monitor-tryout end
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 import:
   - credentials.yml
