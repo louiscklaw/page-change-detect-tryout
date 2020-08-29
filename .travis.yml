@@ -81,7 +81,7 @@ jobs:
         - node index.js
         - cd ..
 
-        #Display Firefox
+        #collect result and save to orphan branch
         - export TMP_DIR=$(mktemp -d)
         - cd $TMP_DIR
         -   git clone --depth=1 https://$GITHUB_TOKEN@github.com/louiscklaw/page-change-detect-tryout.git .
