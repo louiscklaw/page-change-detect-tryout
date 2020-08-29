@@ -39,6 +39,14 @@ jobs:
         - node index.js
         - cd ..
 
+    - stage: jobsdb-qa-monitor-tryout
+      name: jobsdb-qa-monitor-tryout
+      script:
+        - cd jobsdb-qa-monitor-tryout
+        - yarn
+        - node index.js
+        - cd ..
+
     - stage: Unit_test
       script:
         - cd check-xiao-mi-9-pro-price
