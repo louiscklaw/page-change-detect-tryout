@@ -15,7 +15,7 @@ cache:
 
 jobs:
   include:
-    - stage: Test
+    - stage: check-xiao-mi-price
       name: xiao-mi price
       script:
         - cd check-xiao-mi-9-pro-price
@@ -23,9 +23,21 @@ jobs:
         - node index.js
         - cd ..
 
-    - stage: Test
+    - stage: check-taobao-item-price
       name: taobao item price
       script:
+        - cd taobao-item-monitor
+        - yarn
+        - node index.js
+        - cd ..
+
+    - stage: Unit_test
+      script:
+        - cd check-xiao-mi-9-pro-price
+        - yarn
+        - node index.js
+        - cd ..
+
         - cd taobao-item-monitor
         - yarn
         - node index.js

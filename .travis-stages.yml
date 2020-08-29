@@ -8,16 +8,11 @@ stages:
   - name: Build
   - name: Deploy
 
-  - name: Integration_to_other_repo
-    if: branch = develop
+  - name: check-taobao-item-price
+    if: branch = routine/check-taobao-item-price
 
-  - name: Test_publish_dashboard
-    if: branch = develop
-
-  - name: Publish_dashboard
-    if: branch = master
-
-  - name: Test_cron
+  - name: check-xiao-mi-price
+    if: branch = routine/check-xiao-mi-price
 
   - name: Merge
 
