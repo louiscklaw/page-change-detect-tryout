@@ -90,13 +90,13 @@ jobs:
 
         -   rm .git/index
         -   git clean -fdx
-        -   cp $TRAVIS_BUILD_DIR/check-xiao-mi-9-pro-price/wikipedia-helloworld.png .
-        -   cp $TRAVIS_BUILD_DIR/taobao-item-monitor/taobao.png .
 
-        -   git add wikipedia-helloworld.png
-        -   git add taobao.png
+        -   cp $TRAVIS_BUILD_DIR/check-xiao-mi-9-pro-price/*.png .
+        -   cp $TRAVIS_BUILD_DIR/taobao-item-monitor/*.png .
 
-        -   git commit -m"update jobsdb screenshot,"
+        -   git add *.png
+
+        -   git commit -m"update screenshot,"
         -   git push -f -u origin page-screenshot
 
         - cd -

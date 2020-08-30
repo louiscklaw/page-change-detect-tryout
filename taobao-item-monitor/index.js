@@ -16,12 +16,12 @@ async function taobaoItemCheck() {
     const browser = await puppeteer.launch();
     const page = await browser.newPage();
     await page.goto('https://item.taobao.com/item.htm?spm=a230r.1.14.271.57d92d26yyBaXB&id=611982217209&ns=1&abbucket=6#detail');
-    await page.screenshot({path: 'taobao.png'});
+    // await page.screenshot({path: 'taobao-GTX1050ti.png'});
 
     await page.waitFor(10000);
     await page.waitForSelector('#sufei-dialog-close')
     await page.click('#sufei-dialog-close');
-    await page.screenshot({path: 'taobao1.png'});
+    await page.screenshot({path: 'taobao-GTX1050ti.png'});
 
     const live_text = await page.$eval('.tb-meta', el => el.innerText);
     const expected_text = tidyParagraph(`价格\n¥1399.00`)
