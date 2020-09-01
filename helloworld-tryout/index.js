@@ -9,36 +9,31 @@ const tidyParagraph = (para_in) => {
 }
 
 async function xiaomiPriceChangeCheck() {
-  const browser = await puppeteer.launch();
+  const browser = await puppeteer.launch({
+    ignoreHTTPSErrors: true,
+    defaultViewport: {
+      width: 1920,
+      height:1080*10
+    }
+  });
 
   const page = await browser.newPage();
 
-  await page.goto('https://www.mi.com/hk/redmi-note-9-pro');
+  await page.goto('http://127.0.0.1:8080');
 
-  await page.screenshot({ path: 'wikipedia-helloworld.png' });
+  await page.screenshot({ path: 'screen-capture.png' });
 
-  const live_price_paragraph = await page.$eval('.text-content', el => el.innerText);
+  const live_h1 = await page.$eval('h1', el => el.innerText);
 
-  const expected_price_paragraph = `延續傳奇
+  const expected_h1 = `Example Louis`
 
-  Redmi Note 9 Pro
-
-  6400萬像素四鏡頭 升級30W快充
-  HK$1899
-
-  送高透軟膠保護套及額外3個月保養*
-  *用戶需在購買手機當天起計的7天內到
-  https://buy.mi.com/hk/registration 註
-  冊，即可獲得額外3個月保養。
-
-  HK$ 1,899`
-
-  const tidyed_live_price_paragraph = tidyParagraph(live_price_paragraph)
-  const tidyed_expected_price_paragraph = tidyParagraph(expected_price_paragraph)
+  const tidyed_live_h1 = tidyParagraph(live_h1)
+  const tidyed_h1 = tidyParagraph(expected_h1)
 
   await browser.close();
 
-  assert.equal(tidyed_expected_price_paragraph, tidyed_live_price_paragraph, 'xiao mi note 9 pro price changed !!!!')
+  assert.equal(tidyed_h1, tidyed_live_h1, 'hello change !!!!')
+  // assert.notEqual(tidyed_h1, tidyed_live_h1, 'hello not change !!!!')
 }
 
 xiaomiPriceChangeCheck();
