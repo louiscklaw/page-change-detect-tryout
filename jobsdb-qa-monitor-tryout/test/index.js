@@ -18,6 +18,7 @@ const {test_getJobDetailId} = require('./test_parseJobIndex')
 const {getTestJobDetail} = require('./test_parseJobDetail')
 
 require('./test_fetchJobList')
+require('./test_hubdb')
 
 const test_json = getTestJobDetail()
 
