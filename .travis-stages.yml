@@ -18,6 +18,7 @@ stages:
     if: branch = routine/jobsdb-qa-monitor-tryout
 
   - name: Merge
+    if: NOT branch =~ /routine\/.*/
 
   - name: Cron
     if: type = cron
