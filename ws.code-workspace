@@ -1,0 +1,14 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "../travis-playlist"
+		},
+		{
+			"path": "../react-playlist"
+		}
+	],
+	"settings": {}
+}

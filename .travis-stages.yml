@@ -14,6 +14,9 @@ stages:
   - name: check-xiao-mi-price
     if: branch = routine/check-xiao-mi-price
 
+  - name: jobsdb-qa-monitor-tryout
+    if: branch = routine/jobsdb-qa-monitor-tryout
+
   - name: Merge
     if: NOT branch =~ /routine\/.*/
 
