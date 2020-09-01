@@ -1,9 +1,9 @@
 console.log('helloworld')
 
-const {getJobTitleSlug} = require('./parseJobDetail')
+// const {getJobTitleSlug} = require('./parseJobDetail')
 
-const test_json = getTestJobDetail()
+const {extractJobsdbJobsIndexJobsDetailId} = require('./extractJobsdbIndex')
 
-console.log(
-  getJobTitleSlug(test_json)
-)
+// const test_json = getTestJobDetail()
+
+extractJobsdbJobsIndexJobsDetailId('https://hk.jobsdb.com/hk/jobs/information-technology/1?Key=quality%20assurance')

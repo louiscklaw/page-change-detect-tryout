@@ -44,7 +44,8 @@ jobs:
       script:
         - cd jobsdb-qa-monitor-tryout
         - yarn
-        - node index.js
+        - node src/test.js
+        - node src/index.js
         - cd ..
 
         #Display Firefox

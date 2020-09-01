@@ -1,0 +1,2608 @@
+{
+  "data": {
+    "jobs": {
+      "total": 396,
+      "totalJobs": null,
+      "aigdpRelatedSearch": [
+        "qa manager",
+        "assistant qa",
+        "qa specialist",
+        "engineer test",
+        "supervisor laboratory",
+        "qa supervisor",
+        "quality inspector",
+        "quality auditor"
+      ],
+      "solMetadata": {
+        "requestToken": "7f211c94-4d1c-4b62-bf6f-7192d7e9c53f",
+        "keywords": "quality assurance",
+        "categories": [
+          "131",
+          "143",
+          "132",
+          "311",
+          "134",
+          "135",
+          "136",
+          "137",
+          "140",
+          "138",
+          "277",
+          "147",
+          "150",
+          "141",
+          "144",
+          "142",
+          "139",
+          "148",
+          "149",
+          "146",
+          "310",
+          "1"
+        ],
+        "createdSince": "30d",
+        "pageSize": 30,
+        "pageNumber": 1,
+        "totalJobCount": 396
+      },
+      "suggestedEmployer": null,
+      "queryParameters": {
+        "key": "",
+        "searchFields": "",
+        "pageSize": 30
+      },
+      "gdpSearchAlgoGroup": "X",
+      "experiments": null,
+      "jobs": [
+        {
+          "id": "100003007946839",
+          "sourceCountryCode": null,
+          "isStandout": true,
+          "companyMeta": {
+            "id": null,
+            "isPrivate": false,
+            "name": "Welab Bank Limited",
+            "logoUrl": "https://content.jobsdbcdn.com/Content/CmsContent/Logo/HK/JobsDBFiles/CompanyLogo/logo-l/60019l.jpg",
+            "slug": "welab-bank-limited"
+          },
+          "qualificationName": "Qualification Not Specified",
+          "careerLevelName": "Career Level Not Specified",
+          "workExperienceName": "Experience Not Specified",
+          "employmentTermName": "Full Time, Permanent",
+          "jobTitle": "QA Engineer (Virtual Bank)",
+          "jobUrl": "https://hk.jobsdb.com/hk/en/job/qa-engineer-100003007946839?searchRequestToken=7f211c94-4d1c-4b62-bf6f-7192d7e9c53f&sectionRank=1&jobId=100003007946839",
+          "jobTitleSlug": "qa-engineer",
+          "description": "WeLab operates WeLend and WeLab Bank in Hong Kong, WeLab Digital (我来数科), Taoxinji (淘新机) and Tianmian Lab (天冕) in Mainland China and a fintech joint ve...",
+          "employmentTypes": [
+            {
+              "code": "1",
+              "name": "Full Time"
+            },
+            {
+              "code": "3",
+              "name": "Permanent"
+            }
+          ],
+          "sellingPoints": [
+            "Ensure proper development of test plans",
+            "Design and execute functional test plans",
+            "Validate the deliverable to meet the planned level"
+          ],
+          "locations": [
+            {
+              "code": "166",
+              "name": "Eastern Area",
+              "slug": "eastern-area",
+              "children": [
+                {
+                  "code": "169",
+                  "name": "Quarry Bay",
+                  "slug": "quarry-bay"
+                }
+              ]
+            }
+          ],
+          "categories": [
+            {
+              "code": "131",
+              "name": "Information Technology (IT)",
+              "children": [
+                {
+                  "code": "146",
+                  "name": "Testing / QA"
+                }
+              ]
+            }
+          ],
+          "postingDuration": "5 hours ago",
+          "postedAt": "2020-09-01T06:33:33Z",
+          "salaryRange": {
+            "currency": null,
+            "max": null,
+            "min": null,
+            "period": "monthly",
+            "term": null
+          },
+          "salaryVisible": false,
+          "bannerUrl": "https://content.jobsdbcdn.com/Content/CmsContent/Logo/HK/JobsDBFiles/CompanyLogo/banner-m/42734m.jpg",
+          "isClassified": null,
+          "solMetadata": {
+            "searchRequestToken": "7f211c94-4d1c-4b62-bf6f-7192d7e9c53f",
+            "jobId": "100003007946839",
+            "section": "MAIN",
+            "sectionRank": 1,
+            "jobAdType": "ORGANIC",
+            "tags": {}
+          }
+        },
+        {
+          "id": "100003007945855",
+          "sourceCountryCode": null,
+          "isStandout": true,
+          "companyMeta": {
+            "id": null,
+            "isPrivate": false,
+            "name": "Fresh Up Group Limited",
+            "logoUrl": "https://content.jobsdbcdn.com/Content/CmsContent/Logo/HK/JobsDBFiles/CompanyLogo/logo-l/43011l.png",
+            "slug": "fresh-up-group-limited"
+          },
+          "qualificationName": "Degree",
+          "careerLevelName": "Entry Level",
+          "workExperienceName": "1 Year of Experience",
+          "employmentTermName": "Full Time, Permanent",
+          "jobTitle": "QA Officer",
+          "jobUrl": "https://hk.jobsdb.com/hk/en/job/qa-officer-100003007945855?searchRequestToken=7f211c94-4d1c-4b62-bf6f-7192d7e9c53f&sectionRank=2&jobId=100003007945855",
+          "jobTitleSlug": "qa-officer",
+          "description": "Job Description Responsibilities: - Coordinate with technicians for hardware installation; - Bookkeeping of the department’s inventory; - Quality cont...",
+          "employmentTypes": [
+            {
+              "code": "1",
+              "name": "Full Time"
+            },
+            {
+              "code": "3",
+              "name": "Permanent"
+            }
+          ],
+          "sellingPoints": [
+            "Involvements in software and hardware development",
+            "On-the-job training provide",
+            "Fresh graduates will also be consider"
+          ],
+          "locations": [
+            {
+              "code": "126",
+              "name": "Kwai Tsing Area",
+              "slug": "kwai-tsing-area",
+              "children": [
+                {
+                  "code": "127",
+                  "name": "Kwai Fong",
+                  "slug": "kwai-fong"
+                }
+              ]
+            }
+          ],
+          "categories": [
+            {
+              "code": "89",
+              "name": "Engineering",
+              "children": [
+                {
+                  "code": "95",
+                  "name": "Electrical / Electronics"
+                },
+                {
+                  "code": "100",
+                  "name": "Manufacturing & Production"
+                }
+              ]
+            },
+            {
+              "code": "131",
+              "name": "Information Technology (IT)",
+              "children": [
+                {
+                  "code": "135",
+                  "name": "Hardware"
+                }
+              ]
+            }
+          ],
+          "postingDuration": "10 hours ago",
+          "postedAt": "2020-09-01T01:15:44Z",
+          "salaryRange": {
+            "currency": null,
+            "max": null,
+            "min": null,
+            "period": "monthly",
+            "term": null
+          },
+          "salaryVisible": false,
+          "bannerUrl": "",
+          "isClassified": null,
+          "solMetadata": {
+            "searchRequestToken": "7f211c94-4d1c-4b62-bf6f-7192d7e9c53f",
+            "jobId": "100003007945855",
+            "section": "MAIN",
+            "sectionRank": 2,
+            "jobAdType": "ORGANIC",
+            "tags": {}
+          }
+        },
+        {
+          "id": "100003007945334",
+          "sourceCountryCode": null,
+          "isStandout": true,
+          "companyMeta": {
+            "id": null,
+            "isPrivate": false,
+            "name": "Silenus (Hong Kong) Limited",
+            "logoUrl": "https://content.jobsdbcdn.com/Content/CmsContent/Logo/HK/JobsDBFiles/CompanyLogo/logo-l/61991l.jpg",
+            "slug": "silenus-hong-kong-limited"
+          },
+          "qualificationName": "Degree",
+          "careerLevelName": "Middle Level",
+          "workExperienceName": "2 Years of Experience",
+          "employmentTermName": "Full Time, Permanent",
+          "jobTitle": "Quality Assurance Engineer/ Software Test Engineer (IT background)",
+          "jobUrl": "https://hk.jobsdb.com/hk/en/job/quality-assurance-engineer-software-test-engineer-100003007945334?searchRequestToken=7f211c94-4d1c-4b62-bf6f-7192d7e9c53f&sectionRank=3&jobId=100003007945334",
+          "jobTitleSlug": "quality-assurance-engineer-software-test-engineer",
+          "description": "Our client, a renowned retailer and manufacturer in Hong Kong, is seeking a candidate to join them. Responsibilities: - Design and perform testing (ne...",
+          "employmentTypes": [
+            {
+              "code": "1",
+              "name": "Full Time"
+            },
+            {
+              "code": "3",
+              "name": "Permanent"
+            }
+          ],
+          "sellingPoints": [
+            "At least 2 years’ experience in software testing",
+            "A renowned retailer and manufacturer",
+            "Degree in Computer Science"
+          ],
+          "locations": [
+            {
+              "code": "138",
+              "name": "Sham Shui Po Area",
+              "slug": "sham-shui-po-area",
+              "children": []
+            }
+          ],
+          "categories": [
+            {
+              "code": "131",
+              "name": "Information Technology (IT)",
+              "children": [
+                {
+                  "code": "141",
+                  "name": "Product Management  / Business Analyst"
+                },
+                {
+                  "code": "142",
+                  "name": "Software Development"
+                },
+                {
+                  "code": "146",
+                  "name": "Testing / QA"
+                }
+              ]
+            }
+          ],
+          "postingDuration": "31-Aug-20",
+          "postedAt": "2020-08-31T09:42:14Z",
+          "salaryRange": {
+            "currency": "HKD",
+            "max": 25000,
+            "min": 20000,
+            "period": "monthly",
+            "term": null
+          },
+          "salaryVisible": true,
+          "bannerUrl": "https://content.jobsdbcdn.com/Content/CmsContent/Logo/HK/JobsDBFiles/CompanyLogo/banner-m/44438m.jpg",
+          "isClassified": null,
+          "solMetadata": {
+            "searchRequestToken": "7f211c94-4d1c-4b62-bf6f-7192d7e9c53f",
+            "jobId": "100003007945334",
+            "section": "MAIN",
+            "sectionRank": 3,
+            "jobAdType": "ORGANIC",
+            "tags": {}
+          }
+        },
+        {
+          "id": "100003007944767",
+          "sourceCountryCode": null,
+          "isStandout": false,
+          "companyMeta": {
+            "id": null,
+            "isPrivate": false,
+            "name": "AEON CREDIT SERVICE (ASIA) CO., LTD.",
+            "logoUrl": "",
+            "slug": "aeon-credit-service-asia-co-ltd"
+          },
+          "qualificationName": "Qualification Not Specified",
+          "careerLevelName": "Career Level Not Specified",
+          "workExperienceName": "Experience Not Specified",
+          "employmentTermName": "Full Time, Permanent",
+          "jobTitle": "QA Engineer – System Development (Ref: JD-IT-QAE)",
+          "jobUrl": "https://hk.jobsdb.com/hk/en/job/qa-engineer-system-development-100003007944767?searchRequestToken=7f211c94-4d1c-4b62-bf6f-7192d7e9c53f&sectionRank=4&jobId=100003007944767",
+          "jobTitleSlug": "qa-engineer-system-development",
+          "description": "",
+          "employmentTypes": [
+            {
+              "code": "1",
+              "name": "Full Time"
+            },
+            {
+              "code": "3",
+              "name": "Permanent"
+            }
+          ],
+          "sellingPoints": [
+            "Degree holder in Computer Science",
+            "Minimum 2 years or above relevant experience",
+            "Experience with software testing, SDLC and QMS"
+          ],
+          "locations": [
+            {
+              "code": "159",
+              "name": "Yau Tsim Mong Area",
+              "slug": "yau-tsim-mong-area",
+              "children": [
+                {
+                  "code": "161",
+                  "name": "Tsim Sha Tsui",
+                  "slug": "tsim-sha-tsui"
+                }
+              ]
+            }
+          ],
+          "categories": [
+            {
+              "code": "131",
+              "name": "Information Technology (IT)",
+              "children": [
+                {
+                  "code": "142",
+                  "name": "Software Development"
+                },
+                {
+                  "code": "146",
+                  "name": "Testing / QA"
+                },
+                {
+                  "code": "147",
+                  "name": "Network & System"
+                }
+              ]
+            }
+          ],
+          "postingDuration": "31-Aug-20",
+          "postedAt": "2020-08-31T06:52:54Z",
+          "salaryRange": {
+            "currency": null,
+            "max": null,
+            "min": null,
+            "period": "monthly",
+            "term": null
+          },
+          "salaryVisible": false,
+          "bannerUrl": "",
+          "isClassified": null,
+          "solMetadata": {
+            "searchRequestToken": "7f211c94-4d1c-4b62-bf6f-7192d7e9c53f",
+            "jobId": "100003007944767",
+            "section": "MAIN",
+            "sectionRank": 4,
+            "jobAdType": "ORGANIC",
+            "tags": {}
+          }
+        },
+        {
+          "id": "100003007942336",
+          "sourceCountryCode": null,
+          "isStandout": true,
+          "companyMeta": {
+            "id": null,
+            "isPrivate": false,
+            "name": "Ringus Solution Enterprise Limited",
+            "logoUrl": "https://content.jobsdbcdn.com/Content/CmsContent/Logo/HK/JobsDBFiles/CompanyLogo/logo-l/49526l.jpg",
+            "slug": "ringus-solution-enterprise-limited"
+          },
+          "qualificationName": "Non-Degree Tertiary",
+          "careerLevelName": "Entry Level",
+          "workExperienceName": "2 Years of Experience",
+          "employmentTermName": "Full Time, Permanent",
+          "jobTitle": "Software Quality Assurance Engineer",
+          "jobUrl": "https://hk.jobsdb.com/hk/en/job/software-quality-assurance-engineer-100003007942336?searchRequestToken=7f211c94-4d1c-4b62-bf6f-7192d7e9c53f&sectionRank=5&jobId=100003007942336",
+          "jobTitleSlug": "software-quality-assurance-engineer",
+          "description": "Job Responsibilities - Design and prepare Test Plan, Test Scenarios and Test Cases according to user requirements - Perform functional test and user s...",
+          "employmentTypes": [
+            {
+              "code": "1",
+              "name": "Full Time"
+            },
+            {
+              "code": "3",
+              "name": "Permanent"
+            }
+          ],
+          "sellingPoints": [
+            "Design and prepare Test Plan and Test Cases",
+            "Test on web-based system and mobile app",
+            "Provide clear and detail test report and track bug"
+          ],
+          "locations": [
+            {
+              "code": "153",
+              "name": "Central & Western Area",
+              "slug": "central-western-area",
+              "children": [
+                {
+                  "code": "155",
+                  "name": "Central",
+                  "slug": "central"
+                }
+              ]
+            }
+          ],
+          "categories": [
+            {
+              "code": "131",
+              "name": "Information Technology (IT)",
+              "children": [
+                {
+                  "code": "132",
+                  "name": "Application Specialist - Software"
+                },
+                {
+                  "code": "146",
+                  "name": "Testing / QA"
+                },
+                {
+                  "code": "150",
+                  "name": "Others"
+                }
+              ]
+            }
+          ],
+          "postingDuration": "28-Aug-20",
+          "postedAt": "2020-08-28T09:41:01Z",
+          "salaryRange": {
+            "currency": null,
+            "max": null,
+            "min": null,
+            "period": "monthly",
+            "term": "negotiable"
+          },
+          "salaryVisible": false,
+          "bannerUrl": "https://content.jobsdbcdn.com/Content/CmsContent/Logo/HK/JobsDBFiles/CompanyLogo/banner-m/36247m.png",
+          "isClassified": null,
+          "solMetadata": {
+            "searchRequestToken": "7f211c94-4d1c-4b62-bf6f-7192d7e9c53f",
+            "jobId": "100003007942336",
+            "section": "MAIN",
+            "sectionRank": 5,
+            "jobAdType": "ORGANIC",
+            "tags": {}
+          }
+        },
+        {
+          "id": "100003007941951",
+          "sourceCountryCode": null,
+          "isStandout": true,
+          "companyMeta": {
+            "id": null,
+            "isPrivate": false,
+            "name": "Qookia Limited",
+            "logoUrl": "https://content.jobsdbcdn.com/Content/CmsContent/Logo/HK/JobsDBFiles/CompanyLogo/logo-l/65709l.jpg",
+            "slug": "qookia-limited"
+          },
+          "qualificationName": "Matriculated",
+          "careerLevelName": "Entry Level",
+          "workExperienceName": "1 Year of Experience",
+          "employmentTermName": "Full Time, Permanent",
+          "jobTitle": "Mobile Game QA Tester / 遊戲測試員",
+          "jobUrl": "https://hk.jobsdb.com/hk/en/job/mobile-game-qa-tester-%e9%81%8a%e6%88%b2%e6%b8%ac%e8%a9%a6%e5%93%a1-100003007941951?searchRequestToken=7f211c94-4d1c-4b62-bf6f-7192d7e9c53f&sectionRank=6&jobId=100003007941951",
+          "jobTitleSlug": "mobile-game-qa-tester-遊戲測試員",
+          "description": "Job Description: Develop comprehensive test plans and detailed test cases from documented game requirements Create detailed tracking reports to track ...",
+          "employmentTypes": [
+            {
+              "code": "1",
+              "name": "Full Time"
+            },
+            {
+              "code": "3",
+              "name": "Permanent"
+            }
+          ],
+          "sellingPoints": [
+            "Loves playing games",
+            "5-day work",
+            "Performance bonus"
+          ],
+          "locations": [
+            {
+              "code": "126",
+              "name": "Kwai Tsing Area",
+              "slug": "kwai-tsing-area",
+              "children": [
+                {
+                  "code": "128",
+                  "name": "Kwai Hing",
+                  "slug": "kwai-hing"
+                }
+              ]
+            }
+          ],
+          "categories": [
+            {
+              "code": "131",
+              "name": "Information Technology (IT)",
+              "children": [
+                {
+                  "code": "146",
+                  "name": "Testing / QA"
+                }
+              ]
+            },
+            {
+              "code": "272",
+              "name": "Others",
+              "children": [
+                {
+                  "code": "273",
+                  "name": "Others"
+                }
+              ]
+            }
+          ],
+          "postingDuration": "28-Aug-20",
+          "postedAt": "2020-08-28T08:45:36Z",
+          "salaryRange": {
+            "currency": null,
+            "max": null,
+            "min": null,
+            "period": "monthly",
+            "term": "negotiable"
+          },
+          "salaryVisible": false,
+          "bannerUrl": "https://content.jobsdbcdn.com/Content/CmsContent/Logo/HK/JobsDBFiles/CompanyLogo/banner-m/17153m.png",
+          "isClassified": null,
+          "solMetadata": {
+            "searchRequestToken": "7f211c94-4d1c-4b62-bf6f-7192d7e9c53f",
+            "jobId": "100003007941951",
+            "section": "MAIN",
+            "sectionRank": 6,
+            "jobAdType": "ORGANIC",
+            "tags": {}
+          }
+        },
+        {
+          "id": "100003007941755",
+          "sourceCountryCode": null,
+          "isStandout": false,
+          "companyMeta": {
+            "id": null,
+            "isPrivate": false,
+            "name": "Derivco Hong Kong",
+            "logoUrl": "",
+            "slug": ""
+          },
+          "qualificationName": "Non-Degree Tertiary",
+          "careerLevelName": "Entry Level",
+          "workExperienceName": "Experience Not Specified",
+          "employmentTermName": "Full Time, Permanent",
+          "jobTitle": "QA Analyst",
+          "jobUrl": "https://hk.jobsdb.com/hk/en/job/qa-analyst-100003007941755?searchRequestToken=7f211c94-4d1c-4b62-bf6f-7192d7e9c53f&sectionRank=7&jobId=100003007941755",
+          "jobTitleSlug": "qa-analyst",
+          "description": "",
+          "employmentTypes": [
+            {
+              "code": "1",
+              "name": "Full Time"
+            },
+            {
+              "code": "3",
+              "name": "Permanent"
+            }
+          ],
+          "sellingPoints": [
+            "Performance Bonus, 5 days work",
+            "Quality Assurance",
+            "Self-motivated  and work under pressure"
+          ],
+          "locations": [
+            {
+              "code": "159",
+              "name": "Yau Tsim Mong Area",
+              "slug": "yau-tsim-mong-area",
+              "children": [
+                {
+                  "code": "161",
+                  "name": "Tsim Sha Tsui",
+                  "slug": "tsim-sha-tsui"
+                }
+              ]
+            }
+          ],
+          "categories": [
+            {
+              "code": "131",
+              "name": "Information Technology (IT)",
+              "children": [
+                {
+                  "code": "139",
+                  "name": "Support"
+                },
+                {
+                  "code": "146",
+                  "name": "Testing / QA"
+                }
+              ]
+            }
+          ],
+          "postingDuration": "28-Aug-20",
+          "postedAt": "2020-08-28T08:05:15Z",
+          "salaryRange": {
+            "currency": null,
+            "max": null,
+            "min": null,
+            "period": "monthly",
+            "term": null
+          },
+          "salaryVisible": false,
+          "bannerUrl": "",
+          "isClassified": null,
+          "solMetadata": {
+            "searchRequestToken": "7f211c94-4d1c-4b62-bf6f-7192d7e9c53f",
+            "jobId": "100003007941755",
+            "section": "MAIN",
+            "sectionRank": 7,
+            "jobAdType": "ORGANIC",
+            "tags": {}
+          }
+        },
+        {
+          "id": "100003007940711",
+          "sourceCountryCode": null,
+          "isStandout": true,
+          "companyMeta": {
+            "id": null,
+            "isPrivate": false,
+            "name": "Linkers International Limited",
+            "logoUrl": "https://content.jobsdbcdn.com/Content/CmsContent/Logo/HK/JobsDBFiles/CompanyLogo/logo-l/62448l.png",
+            "slug": "linkers-international-limited"
+          },
+          "qualificationName": "Degree",
+          "careerLevelName": "Entry Level",
+          "workExperienceName": "1 Year of Experience",
+          "employmentTermName": "Full Time, Permanent",
+          "jobTitle": "QA Analyst (exp in coding / automation) - Perm role, inhouse - 20k-30k",
+          "jobUrl": "https://hk.jobsdb.com/hk/en/job/qa-analyst-inhouse-100003007940711?searchRequestToken=7f211c94-4d1c-4b62-bf6f-7192d7e9c53f&sectionRank=8&jobId=100003007940711",
+          "jobTitleSlug": "qa-analyst-inhouse",
+          "description": "THE JOB - Analyze new features requirements and prepare test cases / test data to ensure product is tested to agreed level - Provide, execute and mana...",
+          "employmentTypes": [
+            {
+              "code": "1",
+              "name": "Full Time"
+            },
+            {
+              "code": "3",
+              "name": "Permanent"
+            }
+          ],
+          "sellingPoints": [
+            "Perm role, inhouse job at sizeable MNC",
+            "Young +energetic culture, welcome programmer apply",
+            "Package: 20k-30k + bonus + other benefits"
+          ],
+          "locations": [
+            {
+              "code": "159",
+              "name": "Yau Tsim Mong Area",
+              "slug": "yau-tsim-mong-area",
+              "children": [
+                {
+                  "code": "161",
+                  "name": "Tsim Sha Tsui",
+                  "slug": "tsim-sha-tsui"
+                }
+              ]
+            }
+          ],
+          "categories": [
+            {
+              "code": "131",
+              "name": "Information Technology (IT)",
+              "children": [
+                {
+                  "code": "141",
+                  "name": "Product Management  / Business Analyst"
+                },
+                {
+                  "code": "142",
+                  "name": "Software Development"
+                },
+                {
+                  "code": "146",
+                  "name": "Testing / QA"
+                }
+              ]
+            }
+          ],
+          "postingDuration": "28-Aug-20",
+          "postedAt": "2020-08-28T03:10:37Z",
+          "salaryRange": {
+            "currency": "HKD",
+            "max": 30000,
+            "min": 20000,
+            "period": "monthly",
+            "term": null
+          },
+          "salaryVisible": true,
+          "bannerUrl": "https://content.jobsdbcdn.com/Content/CmsContent/Logo/HK/JobsDBFiles/CompanyLogo/banner-m/44884m.png",
+          "isClassified": null,
+          "solMetadata": {
+            "searchRequestToken": "7f211c94-4d1c-4b62-bf6f-7192d7e9c53f",
+            "jobId": "100003007940711",
+            "section": "MAIN",
+            "sectionRank": 8,
+            "jobAdType": "ORGANIC",
+            "tags": {}
+          }
+        },
+        {
+          "id": "100003007939378",
+          "sourceCountryCode": null,
+          "isStandout": true,
+          "companyMeta": {
+            "id": null,
+            "isPrivate": false,
+            "name": "Osmium Consulting Group Limited",
+            "logoUrl": "https://content.jobsdbcdn.com/Content/CmsContent/Logo/HK/JobsDBFiles/CompanyLogo/logo-l/62170l.png",
+            "slug": "osmium-consulting-group-limited"
+          },
+          "qualificationName": "Qualification Not Specified",
+          "careerLevelName": "Career Level Not Specified",
+          "workExperienceName": "Experience Not Specified",
+          "employmentTermName": "Full Time, Permanent",
+          "jobTitle": "QA Analyst | 2-5 year Exp. | Manual Testing / Automation Testing",
+          "jobUrl": "https://hk.jobsdb.com/hk/en/job/qa-analyst-manual-testing-automation-testing-100003007939378?searchRequestToken=7f211c94-4d1c-4b62-bf6f-7192d7e9c53f&sectionRank=9&jobId=100003007939378",
+          "jobTitleSlug": "qa-analyst-manual-testing-automation-testing",
+          "description": "We are hiring : - In-House - Manual Testing & Automation Testing - Junior ( 1-3 years ) and Senior ( 4-6 years ) Roles Job Description - Analyzing exi...",
+          "employmentTypes": [
+            {
+              "code": "1",
+              "name": "Full Time"
+            },
+            {
+              "code": "3",
+              "name": "Permanent"
+            }
+          ],
+          "sellingPoints": [
+            "QA",
+            "Manuel",
+            "Automation"
+          ],
+          "locations": [
+            {
+              "code": "159",
+              "name": "Yau Tsim Mong Area",
+              "slug": "yau-tsim-mong-area",
+              "children": [
+                {
+                  "code": "161",
+                  "name": "Tsim Sha Tsui",
+                  "slug": "tsim-sha-tsui"
+                }
+              ]
+            }
+          ],
+          "categories": [
+            {
+              "code": "131",
+              "name": "Information Technology (IT)",
+              "children": [
+                {
+                  "code": "132",
+                  "name": "Application Specialist - Software"
+                }
+              ]
+            }
+          ],
+          "postingDuration": "27-Aug-20",
+          "postedAt": "2020-08-27T07:05:23Z",
+          "salaryRange": {
+            "currency": null,
+            "max": null,
+            "min": null,
+            "period": "monthly",
+            "term": null
+          },
+          "salaryVisible": false,
+          "bannerUrl": "https://content.jobsdbcdn.com/Content/CmsContent/Logo/HK/JobsDBFiles/CompanyLogo/banner-m/46835m.png",
+          "isClassified": null,
+          "solMetadata": {
+            "searchRequestToken": "7f211c94-4d1c-4b62-bf6f-7192d7e9c53f",
+            "jobId": "100003007939378",
+            "section": "MAIN",
+            "sectionRank": 9,
+            "jobAdType": "ORGANIC",
+            "tags": {}
+          }
+        },
+        {
+          "id": "100003007938838",
+          "sourceCountryCode": null,
+          "isStandout": true,
+          "companyMeta": {
+            "id": null,
+            "isPrivate": false,
+            "name": "Recruit Logic Limited",
+            "logoUrl": "https://content.jobsdbcdn.com/Content/CmsContent/Logo/HK/JobsDBFiles/CompanyLogo/logo-l/41482l.jpg",
+            "slug": "recruit-logic-limited"
+          },
+          "qualificationName": "Qualification Not Specified",
+          "careerLevelName": "Entry Level",
+          "workExperienceName": "Experience Not Specified",
+          "employmentTermName": "Full Time, Permanent",
+          "jobTitle": "Business Analyst (Insurance; 1 Year - Direct Contract; QA are welcome ; 30K)",
+          "jobUrl": "https://hk.jobsdb.com/hk/en/job/business-analyst-100003007938838?searchRequestToken=7f211c94-4d1c-4b62-bf6f-7192d7e9c53f&sectionRank=10&jobId=100003007938838",
+          "jobTitleSlug": "business-analyst",
+          "description": "Responsibilities: - Analyze business needs, impacts and collect user requirements from project stakeholders - Validate user requirements and work out ...",
+          "employmentTypes": [
+            {
+              "code": "1",
+              "name": "Full Time"
+            },
+            {
+              "code": "3",
+              "name": "Permanent"
+            }
+          ],
+          "sellingPoints": [
+            "Business Analyst, IT, Project Officer, Product",
+            "UAT, User requirement analysis, good communication",
+            "SQL knowledge is a big plus, Life Insurance"
+          ],
+          "locations": [
+            {
+              "code": "1242",
+              "name": "Other Locations",
+              "slug": "other-locations",
+              "children": []
+            }
+          ],
+          "categories": [
+            {
+              "code": "131",
+              "name": "Information Technology (IT)",
+              "children": [
+                {
+                  "code": "132",
+                  "name": "Application Specialist - Software"
+                },
+                {
+                  "code": "141",
+                  "name": "Product Management  / Business Analyst"
+                }
+              ]
+            },
+            {
+              "code": "151",
+              "name": "Insurance",
+              "children": [
+                {
+                  "code": "156",
+                  "name": "Others"
+                }
+              ]
+            }
+          ],
+          "postingDuration": "27-Aug-20",
+          "postedAt": "2020-08-27T03:11:43Z",
+          "salaryRange": {
+            "currency": null,
+            "max": null,
+            "min": null,
+            "period": "monthly",
+            "term": null
+          },
+          "salaryVisible": false,
+          "bannerUrl": "https://content.jobsdbcdn.com/Content/CmsContent/Logo/HK/JobsDBFiles/CompanyLogo/banner-m/15225m.jpg",
+          "isClassified": null,
+          "solMetadata": {
+            "searchRequestToken": "7f211c94-4d1c-4b62-bf6f-7192d7e9c53f",
+            "jobId": "100003007938838",
+            "section": "MAIN",
+            "sectionRank": 10,
+            "jobAdType": "ORGANIC",
+            "tags": {}
+          }
+        },
+        {
+          "id": "100003007938713",
+          "sourceCountryCode": null,
+          "isStandout": true,
+          "companyMeta": {
+            "id": null,
+            "isPrivate": false,
+            "name": "BBPOS Limited",
+            "logoUrl": "https://content.jobsdbcdn.com/Content/CmsContent/Logo/HK/JobsDBFiles/CompanyLogo/logo-l/8752l.png",
+            "slug": "bbpos-limited"
+          },
+          "qualificationName": "Degree",
+          "careerLevelName": "Entry Level",
+          "workExperienceName": "2 Years of Experience",
+          "employmentTermName": "Full Time, Permanent",
+          "jobTitle": "Software Quality Assurance Engineer",
+          "jobUrl": "https://hk.jobsdb.com/hk/en/job/software-quality-assurance-engineer-100003007938713?searchRequestToken=7f211c94-4d1c-4b62-bf6f-7192d7e9c53f&sectionRank=11&jobId=100003007938713",
+          "jobTitleSlug": "software-quality-assurance-engineer",
+          "description": "Responsibilities: - Design and write test plans and test cases based on our firmware and SDK product - Design of automated software testing tools to f...",
+          "employmentTypes": [
+            {
+              "code": "1",
+              "name": "Full Time"
+            },
+            {
+              "code": "3",
+              "name": "Permanent"
+            }
+          ],
+          "sellingPoints": [
+            "Rapidly growing Fintech company",
+            "Max 18 days AL, Flexible hr, Performance bonus",
+            "5 days work in HK"
+          ],
+          "locations": [
+            {
+              "code": "144",
+              "name": "Tsuen Wan Area",
+              "slug": "tsuen-wan-area",
+              "children": []
+            }
+          ],
+          "categories": [
+            {
+              "code": "131",
+              "name": "Information Technology (IT)",
+              "children": [
+                {
+                  "code": "135",
+                  "name": "Hardware"
+                },
+                {
+                  "code": "146",
+                  "name": "Testing / QA"
+                },
+                {
+                  "code": "149",
+                  "name": "Technical Writing"
+                }
+              ]
+            }
+          ],
+          "postingDuration": "27-Aug-20",
+          "postedAt": "2020-08-27T02:27:18Z",
+          "salaryRange": {
+            "currency": null,
+            "max": null,
+            "min": null,
+            "period": "monthly",
+            "term": null
+          },
+          "salaryVisible": false,
+          "bannerUrl": "https://content.jobsdbcdn.com/Content/CmsContent/Logo/HK/JobsDBFiles/CompanyLogo/banner-m/4863m.jpg",
+          "isClassified": null,
+          "solMetadata": {
+            "searchRequestToken": "7f211c94-4d1c-4b62-bf6f-7192d7e9c53f",
+            "jobId": "100003007938713",
+            "section": "MAIN",
+            "sectionRank": 11,
+            "jobAdType": "ORGANIC",
+            "tags": {}
+          }
+        },
+        {
+          "id": "100003007938646",
+          "sourceCountryCode": null,
+          "isStandout": true,
+          "companyMeta": {
+            "id": null,
+            "isPrivate": false,
+            "name": "Seamatch Asia Limited",
+            "logoUrl": "https://content.jobsdbcdn.com/Content/CmsContent/Logo/HK/JobsDBFiles/CompanyLogo/logo-l/60829l.jpg",
+            "slug": "seamatch-asia-limited"
+          },
+          "qualificationName": "Qualification Not Specified",
+          "careerLevelName": "Career Level Not Specified",
+          "workExperienceName": "Experience Not Specified",
+          "employmentTermName": "Full Time",
+          "jobTitle": "Programmer / System Analyst / QA Specialist / Mobile Developer / Business Analyst (Fresh welcome)",
+          "jobUrl": "https://hk.jobsdb.com/hk/en/job/programmer-system-analyst-qa-specialist-mobile-developer-business-analyst-100003007938646?searchRequestToken=7f211c94-4d1c-4b62-bf6f-7192d7e9c53f&sectionRank=12&jobId=100003007938646",
+          "jobTitleSlug": "programmer-system-analyst-qa-specialist-mobile-developer-business-analyst",
+          "description": "Our client is a large corporation, due to expansion, now looking for various IT professionals to join their IT team. Responsibilities Participate in s...",
+          "employmentTypes": [
+            {
+              "code": "1",
+              "name": "Full Time"
+            }
+          ],
+          "sellingPoints": [
+            "experience in Java or .Net or Oracle or SQL",
+            "experience in Mobile Applications (IOS /Android)",
+            "Fresh graduate will also be considered"
+          ],
+          "locations": [
+            {
+              "code": "2147483647",
+              "name": "Location Not Specified",
+              "slug": "",
+              "children": []
+            }
+          ],
+          "categories": [
+            {
+              "code": "131",
+              "name": "Information Technology (IT)",
+              "children": [
+                {
+                  "code": "132",
+                  "name": "Application Specialist - Software"
+                },
+                {
+                  "code": "142",
+                  "name": "Software Development"
+                },
+                {
+                  "code": "146",
+                  "name": "Testing / QA"
+                }
+              ]
+            }
+          ],
+          "postingDuration": "27-Aug-20",
+          "postedAt": "2020-08-27T02:01:06Z",
+          "salaryRange": {
+            "currency": null,
+            "max": null,
+            "min": null,
+            "period": "monthly",
+            "term": null
+          },
+          "salaryVisible": false,
+          "bannerUrl": "https://content.jobsdbcdn.com/Content/CmsContent/Logo/HK/JobsDBFiles/CompanyLogo/banner-m/43719m.jpg",
+          "isClassified": null,
+          "solMetadata": {
+            "searchRequestToken": "7f211c94-4d1c-4b62-bf6f-7192d7e9c53f",
+            "jobId": "100003007938646",
+            "section": "MAIN",
+            "sectionRank": 12,
+            "jobAdType": "ORGANIC",
+            "tags": {}
+          }
+        },
+        {
+          "id": "100003007938021",
+          "sourceCountryCode": null,
+          "isStandout": true,
+          "companyMeta": {
+            "id": null,
+            "isPrivate": false,
+            "name": "David James Recruitment Limited",
+            "logoUrl": "https://content.jobsdbcdn.com/Content/CmsContent/Logo/HK/JobsDBFiles/CompanyLogo/logo-l/37465l.jpg",
+            "slug": "david-james-recruitment-limited"
+          },
+          "qualificationName": "Non-Degree Tertiary",
+          "careerLevelName": "Entry Level",
+          "workExperienceName": "Experience Not Specified",
+          "employmentTermName": "Full Time, Permanent",
+          "jobTitle": "Manual/Automated QA Analyst – Global Technology Firm – HKD$25-35k + 2 months bonus",
+          "jobUrl": "https://hk.jobsdb.com/hk/en/job/manual-automated-qa-analyst-global-technology-firm-100003007938021?searchRequestToken=7f211c94-4d1c-4b62-bf6f-7192d7e9c53f&sectionRank=13&jobId=100003007938021",
+          "jobTitleSlug": "manual-automated-qa-analyst-global-technology-firm",
+          "description": "Our client is a UK-based global technical firm which the products are being sold all around the world. They are currently looking for both manual & au...",
+          "employmentTypes": [
+            {
+              "code": "1",
+              "name": "Full Time"
+            },
+            {
+              "code": "3",
+              "name": "Permanent"
+            }
+          ],
+          "sellingPoints": [
+            "Global Technology Firm",
+            "Manual/Automated QA Analyst",
+            "Attractive Bonus"
+          ],
+          "locations": [
+            {
+              "code": "153",
+              "name": "Central & Western Area",
+              "slug": "central-western-area",
+              "children": []
+            }
+          ],
+          "categories": [
+            {
+              "code": "131",
+              "name": "Information Technology (IT)",
+              "children": [
+                {
+                  "code": "139",
+                  "name": "Support"
+                },
+                {
+                  "code": "140",
+                  "name": "IT Management"
+                },
+                {
+                  "code": "146",
+                  "name": "Testing / QA"
+                }
+              ]
+            }
+          ],
+          "postingDuration": "26-Aug-20",
+          "postedAt": "2020-08-26T09:07:08Z",
+          "salaryRange": {
+            "currency": null,
+            "max": null,
+            "min": null,
+            "period": "monthly",
+            "term": null
+          },
+          "salaryVisible": false,
+          "bannerUrl": "https://content.jobsdbcdn.com/Content/CmsContent/Logo/HK/JobsDBFiles/CompanyLogo/banner-m/39523m.png",
+          "isClassified": null,
+          "solMetadata": {
+            "searchRequestToken": "7f211c94-4d1c-4b62-bf6f-7192d7e9c53f",
+            "jobId": "100003007938021",
+            "section": "MAIN",
+            "sectionRank": 13,
+            "jobAdType": "ORGANIC",
+            "tags": {}
+          }
+        },
+        {
+          "id": "100003007937194",
+          "sourceCountryCode": null,
+          "isStandout": true,
+          "companyMeta": {
+            "id": null,
+            "isPrivate": false,
+            "name": "Lane Crawford (Hong Kong) Limited",
+            "logoUrl": "https://content.jobsdbcdn.com/Content/CmsContent/Logo/HK/JobsDBFiles/CompanyLogo/logo-l/37838l.png",
+            "slug": "lane-crawford-hong-kong-limited"
+          },
+          "qualificationName": "Non-Degree Tertiary",
+          "careerLevelName": "Entry Level",
+          "workExperienceName": "2 Years of Experience",
+          "employmentTermName": "Full Time, Permanent",
+          "jobTitle": "Quality Assurance Engineer",
+          "jobUrl": "https://hk.jobsdb.com/hk/en/job/quality-assurance-engineer-100003007937194?searchRequestToken=7f211c94-4d1c-4b62-bf6f-7192d7e9c53f&sectionRank=14&jobId=100003007937194",
+          "jobTitleSlug": "quality-assurance-engineer",
+          "description": "Job Purpose: “To prepare test plan and test cases, execute unit tests, perform system integration tests and smoke tests on every software release, ass...",
+          "employmentTypes": [
+            {
+              "code": "1",
+              "name": "Full Time"
+            },
+            {
+              "code": "3",
+              "name": "Permanent"
+            }
+          ],
+          "sellingPoints": [
+            "Prepare test plan & test cases, execute unit test",
+            "Perform system integration tests and smoke tests",
+            "Ensure all new features & scheduled fixes are test"
+          ],
+          "locations": [
+            {
+              "code": "175",
+              "name": "Southern Area",
+              "slug": "southern-area",
+              "children": []
+            }
+          ],
+          "categories": [
+            {
+              "code": "131",
+              "name": "Information Technology (IT)",
+              "children": [
+                {
+                  "code": "132",
+                  "name": "Application Specialist - Software"
+                },
+                {
+                  "code": "143",
+                  "name": "Application Specialist - Network"
+                },
+                {
+                  "code": "146",
+                  "name": "Testing / QA"
+                }
+              ]
+            }
+          ],
+          "postingDuration": "26-Aug-20",
+          "postedAt": "2020-08-26T03:35:49Z",
+          "salaryRange": {
+            "currency": null,
+            "max": null,
+            "min": null,
+            "period": "monthly",
+            "term": null
+          },
+          "salaryVisible": false,
+          "bannerUrl": "",
+          "isClassified": null,
+          "solMetadata": {
+            "searchRequestToken": "7f211c94-4d1c-4b62-bf6f-7192d7e9c53f",
+            "jobId": "100003007937194",
+            "section": "MAIN",
+            "sectionRank": 14,
+            "jobAdType": "ORGANIC",
+            "tags": {}
+          }
+        },
+        {
+          "id": "100003007937003",
+          "sourceCountryCode": null,
+          "isStandout": true,
+          "companyMeta": {
+            "id": null,
+            "isPrivate": false,
+            "name": "EY Mtel Solutions Limited",
+            "logoUrl": "https://content.jobsdbcdn.com/Content/CmsContent/Logo/HK/JobsDBFiles/CompanyLogo/logo-l/57834l.png",
+            "slug": "ey-mtel-solutions-limited"
+          },
+          "qualificationName": "Non-Degree Tertiary",
+          "careerLevelName": "Entry Level",
+          "workExperienceName": "1 Year of Experience",
+          "employmentTermName": "Full Time, Permanent",
+          "jobTitle": "QA Tester / QA Engineer",
+          "jobUrl": "https://hk.jobsdb.com/hk/en/job/qa-tester-qa-engineer-100003007937003?searchRequestToken=7f211c94-4d1c-4b62-bf6f-7192d7e9c53f&sectionRank=15&jobId=100003007937003",
+          "jobTitleSlug": "qa-tester-qa-engineer",
+          "description": "Responsibilities: - Design and create test plans, test scripts and other relevant documents - Execute manual and automated tests - Reproduce defects f...",
+          "employmentTypes": [
+            {
+              "code": "1",
+              "name": "Full Time"
+            },
+            {
+              "code": "3",
+              "name": "Permanent"
+            }
+          ],
+          "sellingPoints": [
+            "Higher Diploma or Degree in Computer Science / IT",
+            "1 year or above relevant experience",
+            "Design and create test plans/ test scripts"
+          ],
+          "locations": [
+            {
+              "code": "130",
+              "name": "Kwun Tong Area",
+              "slug": "kwun-tong-area",
+              "children": [
+                {
+                  "code": "132",
+                  "name": "Kwun Tong",
+                  "slug": "kwun-tong"
+                }
+              ]
+            }
+          ],
+          "categories": [
+            {
+              "code": "131",
+              "name": "Information Technology (IT)",
+              "children": [
+                {
+                  "code": "139",
+                  "name": "Support"
+                },
+                {
+                  "code": "146",
+                  "name": "Testing / QA"
+                },
+                {
+                  "code": "150",
+                  "name": "Others"
+                }
+              ]
+            }
+          ],
+          "postingDuration": "26-Aug-20",
+          "postedAt": "2020-08-26T02:31:10Z",
+          "salaryRange": {
+            "currency": null,
+            "max": null,
+            "min": null,
+            "period": "monthly",
+            "term": null
+          },
+          "salaryVisible": false,
+          "bannerUrl": "https://content.jobsdbcdn.com/Content/CmsContent/Logo/HK/JobsDBFiles/CompanyLogo/banner-m/39151m.png",
+          "isClassified": null,
+          "solMetadata": {
+            "searchRequestToken": "7f211c94-4d1c-4b62-bf6f-7192d7e9c53f",
+            "jobId": "100003007937003",
+            "section": "MAIN",
+            "sectionRank": 15,
+            "jobAdType": "ORGANIC",
+            "tags": {}
+          }
+        },
+        {
+          "id": "100003007936063",
+          "sourceCountryCode": null,
+          "isStandout": true,
+          "companyMeta": {
+            "id": null,
+            "isPrivate": false,
+            "name": "Neo Derm (HK) Ltd",
+            "logoUrl": "https://content.jobsdbcdn.com/Content/CmsContent/Logo/HK/JobsDBFiles/CompanyLogo/logo-l/17843l.png",
+            "slug": "neo-derm-hk-ltd"
+          },
+          "qualificationName": "Non-Degree Tertiary",
+          "careerLevelName": "Middle Level",
+          "workExperienceName": "2 Years of Experience",
+          "employmentTermName": "Full Time, Permanent",
+          "jobTitle": "QA Specialist",
+          "jobUrl": "https://hk.jobsdb.com/hk/en/job/qa-specialist-100003007936063?searchRequestToken=7f211c94-4d1c-4b62-bf6f-7192d7e9c53f&sectionRank=16&jobId=100003007936063",
+          "jobTitleSlug": "qa-specialist",
+          "description": "About us: With the trend towards O2O (Online to Offline) Generation, our IT department, the strategic technology enabler with more than 70 staff, has ...",
+          "employmentTypes": [
+            {
+              "code": "1",
+              "name": "Full Time"
+            },
+            {
+              "code": "3",
+              "name": "Permanent"
+            }
+          ],
+          "sellingPoints": [
+            "Prepare test plan, test scenarios & test cases",
+            "Verify defect fixes and report retest results",
+            "Attention to details, persistent and patient"
+          ],
+          "locations": [
+            {
+              "code": "166",
+              "name": "Eastern Area",
+              "slug": "eastern-area",
+              "children": [
+                {
+                  "code": "169",
+                  "name": "Quarry Bay",
+                  "slug": "quarry-bay"
+                }
+              ]
+            }
+          ],
+          "categories": [
+            {
+              "code": "131",
+              "name": "Information Technology (IT)",
+              "children": [
+                {
+                  "code": "132",
+                  "name": "Application Specialist - Software"
+                },
+                {
+                  "code": "142",
+                  "name": "Software Development"
+                },
+                {
+                  "code": "146",
+                  "name": "Testing / QA"
+                }
+              ]
+            }
+          ],
+          "postingDuration": "25-Aug-20",
+          "postedAt": "2020-08-25T11:08:38Z",
+          "salaryRange": {
+            "currency": null,
+            "max": null,
+            "min": null,
+            "period": "monthly",
+            "term": null
+          },
+          "salaryVisible": false,
+          "bannerUrl": "https://content.jobsdbcdn.com/Content/CmsContent/Logo/HK/JobsDBFiles/CompanyLogo/banner-m/16403m.jpg",
+          "isClassified": null,
+          "solMetadata": {
+            "searchRequestToken": "7f211c94-4d1c-4b62-bf6f-7192d7e9c53f",
+            "jobId": "100003007936063",
+            "section": "MAIN",
+            "sectionRank": 16,
+            "jobAdType": "ORGANIC",
+            "tags": {}
+          }
+        },
+        {
+          "id": "100003007935108",
+          "sourceCountryCode": null,
+          "isStandout": false,
+          "companyMeta": {
+            "id": null,
+            "isPrivate": false,
+            "name": "PCCW Solutions",
+            "logoUrl": "",
+            "slug": ""
+          },
+          "qualificationName": "Qualification Not Specified",
+          "careerLevelName": "Career Level Not Specified",
+          "workExperienceName": "Experience Not Specified",
+          "employmentTermName": "Full Time",
+          "jobTitle": "QA and Tester",
+          "jobUrl": "https://hk.jobsdb.com/hk/en/job/qa-and-tester-100003007935108?searchRequestToken=7f211c94-4d1c-4b62-bf6f-7192d7e9c53f&sectionRank=17&jobId=100003007935108",
+          "jobTitleSlug": "qa-and-tester",
+          "description": "",
+          "employmentTypes": [
+            {
+              "code": "1",
+              "name": "Full Time"
+            }
+          ],
+          "sellingPoints": [
+            "Strong knowledge of software QA",
+            "Experience using the test automation and load test",
+            "Experience with performance testing"
+          ],
+          "locations": [
+            {
+              "code": "122",
+              "name": "Kowloon City Area",
+              "slug": "kowloon-city-area",
+              "children": []
+            }
+          ],
+          "categories": [
+            {
+              "code": "131",
+              "name": "Information Technology (IT)",
+              "children": [
+                {
+                  "code": "146",
+                  "name": "Testing / QA"
+                }
+              ]
+            }
+          ],
+          "postingDuration": "25-Aug-20",
+          "postedAt": "2020-08-25T05:34:47Z",
+          "salaryRange": {
+            "currency": null,
+            "max": null,
+            "min": null,
+            "period": "monthly",
+            "term": null
+          },
+          "salaryVisible": false,
+          "bannerUrl": "",
+          "isClassified": null,
+          "solMetadata": {
+            "searchRequestToken": "7f211c94-4d1c-4b62-bf6f-7192d7e9c53f",
+            "jobId": "100003007935108",
+            "section": "MAIN",
+            "sectionRank": 17,
+            "jobAdType": "ORGANIC",
+            "tags": {}
+          }
+        },
+        {
+          "id": "100003007934905",
+          "sourceCountryCode": null,
+          "isStandout": true,
+          "companyMeta": {
+            "id": null,
+            "isPrivate": false,
+            "name": "Recruit Logic Limited",
+            "logoUrl": "https://content.jobsdbcdn.com/Content/CmsContent/Logo/HK/JobsDBFiles/CompanyLogo/logo-l/41482l.jpg",
+            "slug": "recruit-logic-limited"
+          },
+          "qualificationName": "Qualification Not Specified",
+          "careerLevelName": "Entry Level",
+          "workExperienceName": "Experience Not Specified",
+          "employmentTermName": "Full Time, Permanent",
+          "jobTitle": "Business Analyst (Insurance; 1 Year - Direct Contract; QA are welcome ; 30K)",
+          "jobUrl": "https://hk.jobsdb.com/hk/en/job/business-analyst-100003007934905?searchRequestToken=7f211c94-4d1c-4b62-bf6f-7192d7e9c53f&sectionRank=18&jobId=100003007934905",
+          "jobTitleSlug": "business-analyst",
+          "description": "Responsibilities: - Analyze business needs, impacts and collect user requirements from project stakeholders - Validate user requirements and work out ...",
+          "employmentTypes": [
+            {
+              "code": "1",
+              "name": "Full Time"
+            },
+            {
+              "code": "3",
+              "name": "Permanent"
+            }
+          ],
+          "sellingPoints": [
+            "Business Analyst, IT, Project Officer, Product",
+            "UAT, User requirement analysis, good communication",
+            "SQL knowledge is a big plus, Life Insurance"
+          ],
+          "locations": [
+            {
+              "code": "1242",
+              "name": "Other Locations",
+              "slug": "other-locations",
+              "children": []
+            }
+          ],
+          "categories": [
+            {
+              "code": "131",
+              "name": "Information Technology (IT)",
+              "children": [
+                {
+                  "code": "132",
+                  "name": "Application Specialist - Software"
+                },
+                {
+                  "code": "141",
+                  "name": "Product Management  / Business Analyst"
+                }
+              ]
+            },
+            {
+              "code": "151",
+              "name": "Insurance",
+              "children": [
+                {
+                  "code": "156",
+                  "name": "Others"
+                }
+              ]
+            }
+          ],
+          "postingDuration": "25-Aug-20",
+          "postedAt": "2020-08-25T03:57:05Z",
+          "salaryRange": {
+            "currency": null,
+            "max": null,
+            "min": null,
+            "period": "monthly",
+            "term": null
+          },
+          "salaryVisible": false,
+          "bannerUrl": "https://content.jobsdbcdn.com/Content/CmsContent/Logo/HK/JobsDBFiles/CompanyLogo/banner-m/15225m.jpg",
+          "isClassified": null,
+          "solMetadata": {
+            "searchRequestToken": "7f211c94-4d1c-4b62-bf6f-7192d7e9c53f",
+            "jobId": "100003007934905",
+            "section": "MAIN",
+            "sectionRank": 18,
+            "jobAdType": "ORGANIC",
+            "tags": {}
+          }
+        },
+        {
+          "id": "100003007934863",
+          "sourceCountryCode": null,
+          "isStandout": false,
+          "companyMeta": {
+            "id": null,
+            "isPrivate": false,
+            "name": "Incredible Action Limited",
+            "logoUrl": "",
+            "slug": ""
+          },
+          "qualificationName": "Qualification Not Specified",
+          "careerLevelName": "Entry Level",
+          "workExperienceName": "Experience Not Specified",
+          "employmentTermName": "Part Time",
+          "jobTitle": "Part-time Quality Assurance Tester",
+          "jobUrl": "https://hk.jobsdb.com/hk/en/job/part-time-quality-assurance-tester-100003007934863?searchRequestToken=7f211c94-4d1c-4b62-bf6f-7192d7e9c53f&sectionRank=19&jobId=100003007934863",
+          "jobTitleSlug": "part-time-quality-assurance-tester",
+          "description": "",
+          "employmentTypes": [
+            {
+              "code": "2",
+              "name": "Part Time"
+            }
+          ],
+          "sellingPoints": [
+            "Part-time QA, review user requirements",
+            "Work less than 18 hours per week",
+            "Students are welcomed"
+          ],
+          "locations": [
+            {
+              "code": "159",
+              "name": "Yau Tsim Mong Area",
+              "slug": "yau-tsim-mong-area",
+              "children": []
+            }
+          ],
+          "categories": [
+            {
+              "code": "131",
+              "name": "Information Technology (IT)",
+              "children": [
+                {
+                  "code": "146",
+                  "name": "Testing / QA"
+                }
+              ]
+            }
+          ],
+          "postingDuration": "25-Aug-20",
+          "postedAt": "2020-08-25T03:40:21Z",
+          "salaryRange": {
+            "currency": null,
+            "max": null,
+            "min": null,
+            "period": "hourly",
+            "term": null
+          },
+          "salaryVisible": false,
+          "bannerUrl": "",
+          "isClassified": null,
+          "solMetadata": {
+            "searchRequestToken": "7f211c94-4d1c-4b62-bf6f-7192d7e9c53f",
+            "jobId": "100003007934863",
+            "section": "MAIN",
+            "sectionRank": 19,
+            "jobAdType": "ORGANIC",
+            "tags": {}
+          }
+        },
+        {
+          "id": "100003007932659",
+          "sourceCountryCode": null,
+          "isStandout": true,
+          "companyMeta": {
+            "id": null,
+            "isPrivate": false,
+            "name": "China Mobile Hong Kong 中國移動香港",
+            "logoUrl": "https://content.jobsdbcdn.com/Content/CmsContent/Logo/HK/JobsDBFiles/CompanyLogo/logo-l/14809l.gif",
+            "slug": ""
+          },
+          "qualificationName": "Degree",
+          "careerLevelName": "Entry Level",
+          "workExperienceName": "3 Years of Experience",
+          "employmentTermName": "Full Time, Permanent",
+          "jobTitle": "Software QA Engineer - BOSS3 Support Team",
+          "jobUrl": "https://hk.jobsdb.com/hk/en/job/software-qa-engineer-boss3-support-team-100003007932659?searchRequestToken=7f211c94-4d1c-4b62-bf6f-7192d7e9c53f&sectionRank=20&jobId=100003007932659",
+          "jobTitleSlug": "software-qa-engineer-boss3-support-team",
+          "description": "CHINA MOBILE HONG KONG COMPANY LIMITED (\"CMHK\") is the wholly-owned subsidiary of China Mobile Limited (HKEx: 941) (NYSE: CHL), which ranks 47th on th...",
+          "employmentTypes": [
+            {
+              "code": "1",
+              "name": "Full Time"
+            },
+            {
+              "code": "3",
+              "name": "Permanent"
+            }
+          ],
+          "sellingPoints": [
+            "QA Testing",
+            "Oracle database",
+            "vendor management"
+          ],
+          "locations": [
+            {
+              "code": "126",
+              "name": "Kwai Tsing Area",
+              "slug": "kwai-tsing-area",
+              "children": [
+                {
+                  "code": "128",
+                  "name": "Kwai Hing",
+                  "slug": "kwai-hing"
+                }
+              ]
+            }
+          ],
+          "categories": [
+            {
+              "code": "131",
+              "name": "Information Technology (IT)",
+              "children": [
+                {
+                  "code": "132",
+                  "name": "Application Specialist - Software"
+                },
+                {
+                  "code": "146",
+                  "name": "Testing / QA"
+                },
+                {
+                  "code": "147",
+                  "name": "Network & System"
+                }
+              ]
+            }
+          ],
+          "postingDuration": "24-Aug-20",
+          "postedAt": "2020-08-24T02:49:45Z",
+          "salaryRange": {
+            "currency": null,
+            "max": null,
+            "min": null,
+            "period": "monthly",
+            "term": null
+          },
+          "salaryVisible": false,
+          "bannerUrl": "https://content.jobsdbcdn.com/Content/CmsContent/Logo/HK/JobsDBFiles/CompanyLogo/banner-m/24382m.jpg",
+          "isClassified": null,
+          "solMetadata": {
+            "searchRequestToken": "7f211c94-4d1c-4b62-bf6f-7192d7e9c53f",
+            "jobId": "100003007932659",
+            "section": "MAIN",
+            "sectionRank": 20,
+            "jobAdType": "ORGANIC",
+            "tags": {}
+          }
+        },
+        {
+          "id": "100003007932002",
+          "sourceCountryCode": null,
+          "isStandout": true,
+          "companyMeta": {
+            "id": null,
+            "isPrivate": false,
+            "name": "Recruit Logic Limited",
+            "logoUrl": "https://content.jobsdbcdn.com/Content/CmsContent/Logo/HK/JobsDBFiles/CompanyLogo/logo-l/41482l.jpg",
+            "slug": "recruit-logic-limited"
+          },
+          "qualificationName": "Qualification Not Specified",
+          "careerLevelName": "Entry Level",
+          "workExperienceName": "Experience Not Specified",
+          "employmentTermName": "Full Time, Permanent",
+          "jobTitle": "Business Analyst (Insurance; 1 Year - Direct Contract; QA are welcome ; 30K)",
+          "jobUrl": "https://hk.jobsdb.com/hk/en/job/business-analyst-100003007932002?searchRequestToken=7f211c94-4d1c-4b62-bf6f-7192d7e9c53f&sectionRank=21&jobId=100003007932002",
+          "jobTitleSlug": "business-analyst",
+          "description": "Responsibilities: - Analyze business needs, impacts and collect user requirements from project stakeholders - Validate user requirements and work out ...",
+          "employmentTypes": [
+            {
+              "code": "1",
+              "name": "Full Time"
+            },
+            {
+              "code": "3",
+              "name": "Permanent"
+            }
+          ],
+          "sellingPoints": [
+            "Business Analyst, IT, Project Officer, Product",
+            "UAT, User requirement analysis, good communication",
+            "SQL knowledge is a big plus, Life Insurance"
+          ],
+          "locations": [
+            {
+              "code": "1242",
+              "name": "Other Locations",
+              "slug": "other-locations",
+              "children": []
+            }
+          ],
+          "categories": [
+            {
+              "code": "131",
+              "name": "Information Technology (IT)",
+              "children": [
+                {
+                  "code": "132",
+                  "name": "Application Specialist - Software"
+                },
+                {
+                  "code": "141",
+                  "name": "Product Management  / Business Analyst"
+                }
+              ]
+            },
+            {
+              "code": "151",
+              "name": "Insurance",
+              "children": [
+                {
+                  "code": "156",
+                  "name": "Others"
+                }
+              ]
+            }
+          ],
+          "postingDuration": "23-Aug-20",
+          "postedAt": "2020-08-23T04:11:03Z",
+          "salaryRange": {
+            "currency": null,
+            "max": null,
+            "min": null,
+            "period": "monthly",
+            "term": null
+          },
+          "salaryVisible": false,
+          "bannerUrl": "https://content.jobsdbcdn.com/Content/CmsContent/Logo/HK/JobsDBFiles/CompanyLogo/banner-m/15225m.jpg",
+          "isClassified": null,
+          "solMetadata": {
+            "searchRequestToken": "7f211c94-4d1c-4b62-bf6f-7192d7e9c53f",
+            "jobId": "100003007932002",
+            "section": "MAIN",
+            "sectionRank": 21,
+            "jobAdType": "ORGANIC",
+            "tags": {}
+          }
+        },
+        {
+          "id": "100003007930830",
+          "sourceCountryCode": null,
+          "isStandout": true,
+          "companyMeta": {
+            "id": null,
+            "isPrivate": false,
+            "name": "Midland Holdings Limited",
+            "logoUrl": "https://content.jobsdbcdn.com/Content/CmsContent/Logo/HK/JobsDBFiles/CompanyLogo/logo-l/16858l.png",
+            "slug": "midland-holdings-limited"
+          },
+          "qualificationName": "Degree",
+          "careerLevelName": "Middle Level",
+          "workExperienceName": "2 Years of Experience",
+          "employmentTermName": "Full Time, Permanent",
+          "jobTitle": "QA Engineer",
+          "jobUrl": "https://hk.jobsdb.com/hk/en/job/qa-engineer-100003007930830?searchRequestToken=7f211c94-4d1c-4b62-bf6f-7192d7e9c53f&sectionRank=22&jobId=100003007930830",
+          "jobTitleSlug": "qa-engineer",
+          "description": "Responsibilities: - Responsible for automation test planning, development and execute automation scripts on different platforms including application ...",
+          "employmentTypes": [
+            {
+              "code": "1",
+              "name": "Full Time"
+            },
+            {
+              "code": "3",
+              "name": "Permanent"
+            }
+          ],
+          "sellingPoints": [
+            "Automation test for mobile and web apps",
+            "Contribute to the Automation test strategies",
+            "Well-structured team with resources to support"
+          ],
+          "locations": [
+            {
+              "code": "138",
+              "name": "Sham Shui Po Area",
+              "slug": "sham-shui-po-area",
+              "children": [
+                {
+                  "code": "139",
+                  "name": "Cheung Sha Wan",
+                  "slug": "cheung-sha-wan"
+                }
+              ]
+            }
+          ],
+          "categories": [
+            {
+              "code": "131",
+              "name": "Information Technology (IT)",
+              "children": [
+                {
+                  "code": "138",
+                  "name": "IT Project Management / Team Lead"
+                },
+                {
+                  "code": "146",
+                  "name": "Testing / QA"
+                },
+                {
+                  "code": "150",
+                  "name": "Others"
+                }
+              ]
+            }
+          ],
+          "postingDuration": "23-Aug-20",
+          "postedAt": "2020-08-22T16:48:16Z",
+          "salaryRange": {
+            "currency": null,
+            "max": null,
+            "min": null,
+            "period": "monthly",
+            "term": "negotiable"
+          },
+          "salaryVisible": false,
+          "bannerUrl": "https://content.jobsdbcdn.com/Content/CmsContent/Logo/HK/JobsDBFiles/CompanyLogo/banner-m/51033m.png",
+          "isClassified": null,
+          "solMetadata": {
+            "searchRequestToken": "7f211c94-4d1c-4b62-bf6f-7192d7e9c53f",
+            "jobId": "100003007930830",
+            "section": "MAIN",
+            "sectionRank": 22,
+            "jobAdType": "ORGANIC",
+            "tags": {}
+          }
+        },
+        {
+          "id": "100003007930617",
+          "sourceCountryCode": null,
+          "isStandout": true,
+          "companyMeta": {
+            "id": null,
+            "isPrivate": false,
+            "name": "IT Solutions Ltd.",
+            "logoUrl": "",
+            "slug": "it-solutions-ltd"
+          },
+          "qualificationName": "Degree",
+          "careerLevelName": "Entry Level",
+          "workExperienceName": "Experience Not Specified",
+          "employmentTermName": "Full Time",
+          "jobTitle": "Major Bank (QA): Project Assistants / Admin Assistants (Treasury System Project)",
+          "jobUrl": "https://hk.jobsdb.com/hk/en/job/major-bank-project-assistants-admin-assistants-100003007930617?searchRequestToken=7f211c94-4d1c-4b62-bf6f-7192d7e9c53f&sectionRank=23&jobId=100003007930617",
+          "jobTitleSlug": "major-bank-project-assistants-admin-assistants",
+          "description": "We are searching on behalf of a Major Bank for a number of high-calibre Project Assistants / Admin Assistants to work on Treasury System Software rela...",
+          "employmentTypes": [
+            {
+              "code": "1",
+              "name": "Full Time"
+            }
+          ],
+          "sellingPoints": [
+            "Major Bank",
+            "Quality Assurance on Treasury Systems",
+            "Training will be provided"
+          ],
+          "locations": [
+            {
+              "code": "153",
+              "name": "Central & Western Area",
+              "slug": "central-western-area",
+              "children": [
+                {
+                  "code": "155",
+                  "name": "Central",
+                  "slug": "central"
+                }
+              ]
+            }
+          ],
+          "categories": [
+            {
+              "code": "15",
+              "name": "Admin & HR",
+              "children": [
+                {
+                  "code": "17",
+                  "name": "Clerical / Admin Staff"
+                }
+              ]
+            },
+            {
+              "code": "37",
+              "name": "Banking / Finance",
+              "children": [
+                {
+                  "code": "47",
+                  "name": "Treasury"
+                }
+              ]
+            },
+            {
+              "code": "131",
+              "name": "Information Technology (IT)",
+              "children": [
+                {
+                  "code": "146",
+                  "name": "Testing / QA"
+                }
+              ]
+            }
+          ],
+          "postingDuration": "21-Aug-20",
+          "postedAt": "2020-08-21T11:19:16Z",
+          "salaryRange": {
+            "currency": null,
+            "max": null,
+            "min": null,
+            "period": "monthly",
+            "term": null
+          },
+          "salaryVisible": false,
+          "bannerUrl": "",
+          "isClassified": null,
+          "solMetadata": {
+            "searchRequestToken": "7f211c94-4d1c-4b62-bf6f-7192d7e9c53f",
+            "jobId": "100003007930617",
+            "section": "MAIN",
+            "sectionRank": 23,
+            "jobAdType": "ORGANIC",
+            "tags": {}
+          }
+        },
+        {
+          "id": "100003007931143",
+          "sourceCountryCode": null,
+          "isStandout": false,
+          "companyMeta": {
+            "id": null,
+            "isPrivate": false,
+            "name": "ESD Services Limited (ESDlife)",
+            "logoUrl": "",
+            "slug": ""
+          },
+          "qualificationName": "Degree",
+          "careerLevelName": "Middle Level",
+          "workExperienceName": "2 Years of Experience",
+          "employmentTermName": "Full Time, Permanent",
+          "jobTitle": "Quality Assurance Engineer (Digital Solutions)",
+          "jobUrl": "https://hk.jobsdb.com/hk/en/job/quality-assurance-engineer-100003007931143?searchRequestToken=7f211c94-4d1c-4b62-bf6f-7192d7e9c53f&sectionRank=24&jobId=100003007931143",
+          "jobTitleSlug": "quality-assurance-engineer",
+          "description": "",
+          "employmentTypes": [
+            {
+              "code": "1",
+              "name": "Full Time"
+            },
+            {
+              "code": "3",
+              "name": "Permanent"
+            }
+          ],
+          "sellingPoints": [
+            "Strong knowledge in QA process and methodology",
+            "Experience in automatic test framework",
+            "Able to work under pressure and meet tight dead"
+          ],
+          "locations": [
+            {
+              "code": "122",
+              "name": "Kowloon City Area",
+              "slug": "kowloon-city-area",
+              "children": [
+                {
+                  "code": "123",
+                  "name": "Hung Hom",
+                  "slug": "hung-hom"
+                }
+              ]
+            }
+          ],
+          "categories": [
+            {
+              "code": "131",
+              "name": "Information Technology (IT)",
+              "children": [
+                {
+                  "code": "146",
+                  "name": "Testing / QA"
+                }
+              ]
+            }
+          ],
+          "postingDuration": "21-Aug-20",
+          "postedAt": "2020-08-21T10:54:09Z",
+          "salaryRange": {
+            "currency": null,
+            "max": null,
+            "min": null,
+            "period": "monthly",
+            "term": "negotiable"
+          },
+          "salaryVisible": false,
+          "bannerUrl": "",
+          "isClassified": null,
+          "solMetadata": {
+            "searchRequestToken": "7f211c94-4d1c-4b62-bf6f-7192d7e9c53f",
+            "jobId": "100003007931143",
+            "section": "MAIN",
+            "sectionRank": 24,
+            "jobAdType": "ORGANIC",
+            "tags": {}
+          }
+        },
+        {
+          "id": "100003007930581",
+          "sourceCountryCode": null,
+          "isStandout": false,
+          "companyMeta": {
+            "id": null,
+            "isPrivate": false,
+            "name": "Hong Kong Interbank Clearing Ltd",
+            "logoUrl": "",
+            "slug": "hong-kong-interbank-clearing-ltd"
+          },
+          "qualificationName": "Qualification Not Specified",
+          "careerLevelName": "Career Level Not Specified",
+          "workExperienceName": "4 Years of Experience",
+          "employmentTermName": "Full Time, Permanent",
+          "jobTitle": "Assistant Manager (Quality Assurance)",
+          "jobUrl": "https://hk.jobsdb.com/hk/en/job/assistant-manager-100003007930581?searchRequestToken=7f211c94-4d1c-4b62-bf6f-7192d7e9c53f&sectionRank=25&jobId=100003007930581",
+          "jobTitleSlug": "assistant-manager",
+          "description": "",
+          "employmentTypes": [
+            {
+              "code": "1",
+              "name": "Full Time"
+            },
+            {
+              "code": "3",
+              "name": "Permanent"
+            }
+          ],
+          "sellingPoints": [
+            "At least 4 years’ quality assurance experience",
+            "With exposure in financial sector",
+            "Competence in writing test plans and scripts"
+          ],
+          "locations": [
+            {
+              "code": "130",
+              "name": "Kwun Tong Area",
+              "slug": "kwun-tong-area",
+              "children": [
+                {
+                  "code": "133",
+                  "name": "Ngau Tau Kok",
+                  "slug": "ngau-tau-kok"
+                }
+              ]
+            }
+          ],
+          "categories": [
+            {
+              "code": "131",
+              "name": "Information Technology (IT)",
+              "children": [
+                {
+                  "code": "146",
+                  "name": "Testing / QA"
+                }
+              ]
+            }
+          ],
+          "postingDuration": "21-Aug-20",
+          "postedAt": "2020-08-21T09:32:55Z",
+          "salaryRange": {
+            "currency": null,
+            "max": null,
+            "min": null,
+            "period": "monthly",
+            "term": null
+          },
+          "salaryVisible": false,
+          "bannerUrl": "",
+          "isClassified": null,
+          "solMetadata": {
+            "searchRequestToken": "7f211c94-4d1c-4b62-bf6f-7192d7e9c53f",
+            "jobId": "100003007930581",
+            "section": "MAIN",
+            "sectionRank": 25,
+            "jobAdType": "ORGANIC",
+            "tags": {}
+          }
+        },
+        {
+          "id": "100003007929858",
+          "sourceCountryCode": null,
+          "isStandout": true,
+          "companyMeta": {
+            "id": null,
+            "isPrivate": false,
+            "name": "Seamatch Asia Limited",
+            "logoUrl": "https://content.jobsdbcdn.com/Content/CmsContent/Logo/HK/JobsDBFiles/CompanyLogo/logo-l/60829l.jpg",
+            "slug": "seamatch-asia-limited"
+          },
+          "qualificationName": "Non-Degree Tertiary",
+          "careerLevelName": "Middle Level",
+          "workExperienceName": "2 Years of Experience",
+          "employmentTermName": "Full Time, Permanent",
+          "jobTitle": "System Analyst/Analyst Programmer/Programmer/BA/QA(Java /.NET/ Mobile/BI/Web/DBA)",
+          "jobUrl": "https://hk.jobsdb.com/hk/en/job/system-analyst-analyst-programmer-programmer-ba-qa-100003007929858?searchRequestToken=7f211c94-4d1c-4b62-bf6f-7192d7e9c53f&sectionRank=26&jobId=100003007929858",
+          "jobTitleSlug": "system-analyst-analyst-programmer-programmer-ba-qa",
+          "description": "Our clients (MNC, listed company, public utility, bank, etc.) are now looking for high calibre candidates to join their expanding teams : Responsibili...",
+          "employmentTypes": [
+            {
+              "code": "1",
+              "name": "Full Time"
+            },
+            {
+              "code": "3",
+              "name": "Permanent"
+            }
+          ],
+          "sellingPoints": [
+            "Higher Diploma or above in Computer Science",
+            "application design, development and implementation",
+            "Fresh Graduate, Junior, Senior all require"
+          ],
+          "locations": [
+            {
+              "code": "2147483647",
+              "name": "Location Not Specified",
+              "slug": "",
+              "children": []
+            }
+          ],
+          "categories": [
+            {
+              "code": "131",
+              "name": "Information Technology (IT)",
+              "children": [
+                {
+                  "code": "132",
+                  "name": "Application Specialist - Software"
+                },
+                {
+                  "code": "138",
+                  "name": "IT Project Management / Team Lead"
+                },
+                {
+                  "code": "142",
+                  "name": "Software Development"
+                }
+              ]
+            }
+          ],
+          "postingDuration": "21-Aug-20",
+          "postedAt": "2020-08-21T07:17:20Z",
+          "salaryRange": {
+            "currency": null,
+            "max": null,
+            "min": null,
+            "period": "monthly",
+            "term": "negotiable"
+          },
+          "salaryVisible": false,
+          "bannerUrl": "https://content.jobsdbcdn.com/Content/CmsContent/Logo/HK/JobsDBFiles/CompanyLogo/banner-m/43719m.jpg",
+          "isClassified": null,
+          "solMetadata": {
+            "searchRequestToken": "7f211c94-4d1c-4b62-bf6f-7192d7e9c53f",
+            "jobId": "100003007929858",
+            "section": "MAIN",
+            "sectionRank": 26,
+            "jobAdType": "ORGANIC",
+            "tags": {}
+          }
+        },
+        {
+          "id": "100003007928563",
+          "sourceCountryCode": null,
+          "isStandout": true,
+          "companyMeta": {
+            "id": null,
+            "isPrivate": false,
+            "name": "Michael Page",
+            "logoUrl": "https://content.jobsdbcdn.com/Content/CmsContent/Logo/HK/JobsDBFiles/CompanyLogo/logo-l/5l.png",
+            "slug": ""
+          },
+          "qualificationName": "Degree",
+          "careerLevelName": "Senior Level",
+          "workExperienceName": "8 Years of Experience",
+          "employmentTermName": "Full Time, Permanent",
+          "jobTitle": "Quality Assurance Manager (Applications)",
+          "jobUrl": "https://hk.jobsdb.com/hk/en/job/quality-assurance-manager-100003007928563?searchRequestToken=7f211c94-4d1c-4b62-bf6f-7192d7e9c53f&sectionRank=27&jobId=100003007928563",
+          "jobTitleSlug": "quality-assurance-manager",
+          "description": "- Large-scale multibusiness enterprise - Innovative and fast-paced environment - Multinational and open-minded environment - Large team planning…",
+          "employmentTypes": [
+            {
+              "code": "1",
+              "name": "Full Time"
+            },
+            {
+              "code": "3",
+              "name": "Permanent"
+            }
+          ],
+          "sellingPoints": [
+            "Large-scale multi-business enterprise",
+            "Large team planning & management",
+            "Manual testing management"
+          ],
+          "locations": [
+            {
+              "code": "2147483647",
+              "name": "Location Not Specified",
+              "slug": "",
+              "children": []
+            }
+          ],
+          "categories": [
+            {
+              "code": "131",
+              "name": "Information Technology (IT)",
+              "children": [
+                {
+                  "code": "132",
+                  "name": "Application Specialist - Software"
+                },
+                {
+                  "code": "138",
+                  "name": "IT Project Management / Team Lead"
+                },
+                {
+                  "code": "146",
+                  "name": "Testing / QA"
+                }
+              ]
+            }
+          ],
+          "postingDuration": "20-Aug-20",
+          "postedAt": "2020-08-20T13:04:11Z",
+          "salaryRange": {
+            "currency": null,
+            "max": null,
+            "min": null,
+            "period": "monthly",
+            "term": null
+          },
+          "salaryVisible": false,
+          "bannerUrl": "https://content.jobsdbcdn.com/Content/CmsContent/Logo/HK/JobsDBFiles/CompanyLogo/banner-m/42089m.png",
+          "isClassified": null,
+          "solMetadata": {
+            "searchRequestToken": "7f211c94-4d1c-4b62-bf6f-7192d7e9c53f",
+            "jobId": "100003007928563",
+            "section": "MAIN",
+            "sectionRank": 27,
+            "jobAdType": "ORGANIC",
+            "tags": {}
+          }
+        },
+        {
+          "id": "100003007928488",
+          "sourceCountryCode": null,
+          "isStandout": true,
+          "companyMeta": {
+            "id": null,
+            "isPrivate": false,
+            "name": "FundPark Limited",
+            "logoUrl": "https://content.jobsdbcdn.com/Content/CmsContent/Logo/HK/JobsDBFiles/CompanyLogo/logo-l/62248l.png",
+            "slug": "fundpark-limited"
+          },
+          "qualificationName": "Degree",
+          "careerLevelName": "Middle Level",
+          "workExperienceName": "5 Years of Experience",
+          "employmentTermName": "Full Time",
+          "jobTitle": "Senior QA Engineer (Application Development) – FinTech",
+          "jobUrl": "https://hk.jobsdb.com/hk/en/job/senior-qa-engineer-fintech-100003007928488?searchRequestToken=7f211c94-4d1c-4b62-bf6f-7192d7e9c53f&sectionRank=28&jobId=100003007928488",
+          "jobTitleSlug": "senior-qa-engineer-fintech",
+          "description": "We are at fast growing phase where you will get the chance to work on a lot of new software with modern technologies. Looking for highly motivated and...",
+          "employmentTypes": [
+            {
+              "code": "1",
+              "name": "Full Time"
+            }
+          ],
+          "sellingPoints": [
+            "FinTech",
+            "Information Technology",
+            "QA"
+          ],
+          "locations": [
+            {
+              "code": "130",
+              "name": "Kwun Tong Area",
+              "slug": "kwun-tong-area",
+              "children": [
+                {
+                  "code": "133",
+                  "name": "Ngau Tau Kok",
+                  "slug": "ngau-tau-kok"
+                }
+              ]
+            }
+          ],
+          "categories": [
+            {
+              "code": "131",
+              "name": "Information Technology (IT)",
+              "children": [
+                {
+                  "code": "146",
+                  "name": "Testing / QA"
+                }
+              ]
+            }
+          ],
+          "postingDuration": "20-Aug-20",
+          "postedAt": "2020-08-20T11:24:08Z",
+          "salaryRange": {
+            "currency": null,
+            "max": null,
+            "min": null,
+            "period": "monthly",
+            "term": null
+          },
+          "salaryVisible": false,
+          "bannerUrl": "",
+          "isClassified": null,
+          "solMetadata": {
+            "searchRequestToken": "7f211c94-4d1c-4b62-bf6f-7192d7e9c53f",
+            "jobId": "100003007928488",
+            "section": "MAIN",
+            "sectionRank": 28,
+            "jobAdType": "ORGANIC",
+            "tags": {}
+          }
+        },
+        {
+          "id": "100003007928334",
+          "sourceCountryCode": null,
+          "isStandout": false,
+          "companyMeta": {
+            "id": null,
+            "isPrivate": false,
+            "name": "m-FINANCE Limited",
+            "logoUrl": "",
+            "slug": "m-finance-limited"
+          },
+          "qualificationName": "Degree",
+          "careerLevelName": "Middle Level",
+          "workExperienceName": "5 Years of Experience",
+          "employmentTermName": "Full Time",
+          "jobTitle": "Senior QA Engineer/Business Analyst",
+          "jobUrl": "https://hk.jobsdb.com/hk/en/job/senior-qa-engineer-business-analyst-100003007928334?searchRequestToken=7f211c94-4d1c-4b62-bf6f-7192d7e9c53f&sectionRank=29&jobId=100003007928334",
+          "jobTitleSlug": "senior-qa-engineer-business-analyst",
+          "description": "",
+          "employmentTypes": [
+            {
+              "code": "1",
+              "name": "Full Time"
+            }
+          ],
+          "sellingPoints": [
+            "test cases and implement manual/automation tests",
+            "Functional Requirement Specification (FRS)",
+            "UAT"
+          ],
+          "locations": [
+            {
+              "code": "150",
+              "name": "Wan Chai Area",
+              "slug": "wan-chai-area",
+              "children": [
+                {
+                  "code": "152",
+                  "name": "Wan Chai",
+                  "slug": "wan-chai"
+                }
+              ]
+            }
+          ],
+          "categories": [
+            {
+              "code": "131",
+              "name": "Information Technology (IT)",
+              "children": [
+                {
+                  "code": "141",
+                  "name": "Product Management  / Business Analyst"
+                },
+                {
+                  "code": "146",
+                  "name": "Testing / QA"
+                }
+              ]
+            }
+          ],
+          "postingDuration": "20-Aug-20",
+          "postedAt": "2020-08-20T09:57:53Z",
+          "salaryRange": {
+            "currency": null,
+            "max": null,
+            "min": null,
+            "period": "monthly",
+            "term": null
+          },
+          "salaryVisible": false,
+          "bannerUrl": "",
+          "isClassified": null,
+          "solMetadata": {
+            "searchRequestToken": "7f211c94-4d1c-4b62-bf6f-7192d7e9c53f",
+            "jobId": "100003007928334",
+            "section": "MAIN",
+            "sectionRank": 29,
+            "jobAdType": "ORGANIC",
+            "tags": {}
+          }
+        },
+        {
+          "id": "100003007927770",
+          "sourceCountryCode": null,
+          "isStandout": true,
+          "companyMeta": {
+            "id": null,
+            "isPrivate": false,
+            "name": "Pure International (HK) Limited",
+            "logoUrl": "https://content.jobsdbcdn.com/Content/CmsContent/Logo/HK/JobsDBFiles/CompanyLogo/logo-l/4757l.jpg",
+            "slug": "pure-international-hk-limited"
+          },
+          "qualificationName": "Degree",
+          "careerLevelName": "Middle Level",
+          "workExperienceName": "5 Years of Experience",
+          "employmentTermName": "Full Time, Permanent",
+          "jobTitle": "Team Lead, Quality Assurance & System Operation",
+          "jobUrl": "https://hk.jobsdb.com/hk/en/job/team-lead-quality-assurance-system-operation-100003007927770?searchRequestToken=7f211c94-4d1c-4b62-bf6f-7192d7e9c53f&sectionRank=30&jobId=100003007927770",
+          "jobTitleSlug": "team-lead-quality-assurance-system-operation",
+          "description": "Job Summary: Handle the quality assurance/test work of related IT systems of solution development and solve the problems in the test process; guide th...",
+          "employmentTypes": [
+            {
+              "code": "1",
+              "name": "Full Time"
+            },
+            {
+              "code": "3",
+              "name": "Permanent"
+            }
+          ],
+          "sellingPoints": [
+            "Quality Assurance",
+            "Testing, System Operation",
+            "Incident Management"
+          ],
+          "locations": [
+            {
+              "code": "153",
+              "name": "Central & Western Area",
+              "slug": "central-western-area",
+              "children": [
+                {
+                  "code": "155",
+                  "name": "Central",
+                  "slug": "central"
+                }
+              ]
+            }
+          ],
+          "categories": [
+            {
+              "code": "131",
+              "name": "Information Technology (IT)",
+              "children": [
+                {
+                  "code": "139",
+                  "name": "Support"
+                },
+                {
+                  "code": "146",
+                  "name": "Testing / QA"
+                },
+                {
+                  "code": "148",
+                  "name": "Technical / Functional Consulting"
+                }
+              ]
+            }
+          ],
+          "postingDuration": "20-Aug-20",
+          "postedAt": "2020-08-20T06:43:33Z",
+          "salaryRange": {
+            "currency": null,
+            "max": null,
+            "min": null,
+            "period": "monthly",
+            "term": null
+          },
+          "salaryVisible": false,
+          "bannerUrl": "https://content.jobsdbcdn.com/Content/CmsContent/Logo/HK/JobsDBFiles/CompanyLogo/banner-m/47170m.jpg",
+          "isClassified": null,
+          "solMetadata": {
+            "searchRequestToken": "7f211c94-4d1c-4b62-bf6f-7192d7e9c53f",
+            "jobId": "100003007927770",
+            "section": "MAIN",
+            "sectionRank": 30,
+            "jobAdType": "ORGANIC",
+            "tags": {}
+          }
+        }
+      ]
+    }
+  }
+}

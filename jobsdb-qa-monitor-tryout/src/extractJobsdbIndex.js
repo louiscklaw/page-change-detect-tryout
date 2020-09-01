@@ -12,7 +12,7 @@ const tidyParagraph = (para_in) => {
 
 
 
-async function jobsdbQAChangeCheck() {
+async function extractJobsdbJobsIndexJobsDetailId(url_to_extract) {
   const browser = await puppeteer.launch({
     ignoreHTTPSErrors: true,
     defaultViewport: {
@@ -23,7 +23,7 @@ async function jobsdbQAChangeCheck() {
 
   const page = await browser.newPage();
 
-  await page.goto('https://hk.jobsdb.com/hk/jobs/information-technology/1?Key=quality%20assurance');
+  await page.goto(url_to_extract);
 
   await page.screenshot({ path: 'jobsdb.png' });
 
@@ -58,5 +58,5 @@ async function jobsdbQAChangeCheck() {
 }
 
 module.exports={
-  jobsdbQAChangeCheck
+  extractJobsdbJobsIndexJobsDetailId
 }
