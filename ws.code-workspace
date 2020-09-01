@@ -8,6 +8,9 @@
 		},
 		{
 			"path": "../react-playlist"
+		},
+		{
+			"path": "../js-playlist"
 		}
 	],
 	"settings": {}
