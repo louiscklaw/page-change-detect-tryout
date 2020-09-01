@@ -15,6 +15,7 @@ stages:
     if: branch = routine/check-xiao-mi-price
 
   - name: Merge
+    if: NOT branch =~ /routine\/.*/
 
   - name: Cron
     if: type = cron
