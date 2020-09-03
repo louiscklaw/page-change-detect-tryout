@@ -25,6 +25,7 @@
   "license": "ISC",
   "dependencies": {
     "hubdb": "^1.1.2",
+    "lodash": "^4.17.20",
     "node-fetch": "^2.6.0",
     "puppeteer": "^1.14.0"
   }

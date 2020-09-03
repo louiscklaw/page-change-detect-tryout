@@ -13,6 +13,8 @@ const tidyParagraph = (para_in) => {
 
 
 async function extractJobsdbJobsIndexJobsDetailId(url_to_extract) {
+  var output=[]
+
   const browser = await puppeteer.launch({
     ignoreHTTPSErrors: true,
     defaultViewport: {
@@ -34,7 +36,8 @@ async function extractJobsdbJobsIndexJobsDetailId(url_to_extract) {
   // const job_card = await page.$eval(css_select_job_card_job_detail_link, el => el.outerHTML);
   const job_card_describedby = await page.evaluate(
     ()=>{
-      output=[]
+      // running in browser
+      let output=[]
       let i=0
       try {
         while (true) {
@@ -50,11 +53,13 @@ async function extractJobsdbJobsIndexJobsDetailId(url_to_extract) {
   );
 
   // console.log(getJobDetailId(job_card_describedby))
-  console.log(job_card_describedby.map(x => getJobDetailId(x)))
+  output = job_card_describedby.map(x => getJobDetailId(x))
 
   // fs.writeFileSync('./source.html',bodyHTML,{encoding: 'utf-8'})
 
   await browser.close();
+
+  return output
 }
 
 module.exports={
