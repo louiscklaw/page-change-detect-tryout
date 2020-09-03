@@ -11,6 +11,6 @@ cat << EOF >> jobs_id_ignore.json
 EOF
 
 git add .
-git commit -m"clean json,"
+git commit -m"reset json,"
 
 git push
