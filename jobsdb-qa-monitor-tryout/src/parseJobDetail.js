@@ -1,7 +1,5 @@
-
-function sayHelloworld(){
-  console.log(`helloworld from ${__filename}`)
-}
+const fs = require('fs')
+const path = require('path')
 
 function getJobData(json_in){
   return json_in['data']
@@ -49,6 +47,10 @@ function getCompanyWebsite(json_in){
 
 function getJobTitleSlug(json_in){
   return getJobDetail(json_in).jobTitleSlug
+}
+
+function sayHelloworld(){
+  console.log(`helloworld from ${path.basename(__filename)}`)
 }
 
 

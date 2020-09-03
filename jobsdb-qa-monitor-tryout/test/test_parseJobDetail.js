@@ -1,17 +1,22 @@
 const fs = require('fs')
 const {SRC_HOME, TEST_HOME} = require('./common')
 
-const test_job_detail_json = fs.readFileSync(`${TEST_HOME}/test_job_detail.json`,{encoding:'utf-8'})
+const parseJobDetail = require(`${SRC_HOME}/parseJobDetail`)
 
-function sayHelloworld(){
-  console.log(`helloworld from ${__filename}`)
-}
+const test_job_detail_json = fs.readFileSync(`${TEST_HOME}/test_job_detail.json`,{encoding:'utf-8'})
 
 function getTestJobDetail(){
   return JSON.parse(test_job_detail_json)
 }
 
+function test_sayHelloworld(){
+  return parseJobDetail.sayHelloworld()
+}
+
+function test(){
+  test_sayHelloworld()
+}
+
 module.exports={
-  sayHelloworld,
-  getTestJobDetail
+  test
 }
