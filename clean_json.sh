@@ -2,6 +2,8 @@
 
 set -ex
 
+git pull
+
 rm -rf *.json
 
 git add *.json
