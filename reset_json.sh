@@ -13,4 +13,4 @@ EOF
 git add .
 git commit -m"reset json,"
 
-git push
+git push -f
