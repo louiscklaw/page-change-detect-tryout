@@ -1,6 +1,8 @@
 'use strict';
 
 const fs = require('fs')
+const path = require('path')
+
 const assert = require('assert');
 
 const puppeteer = require('puppeteer');
@@ -62,6 +64,11 @@ async function extractJobsdbJobsIndexJobsDetailId(url_to_extract) {
   return output
 }
 
+function sayHelloworld(){
+  console.log(`helloworld from ${path.basename(__filename)}`)
+}
+
 module.exports={
-  extractJobsdbJobsIndexJobsDetailId
+  extractJobsdbJobsIndexJobsDetailId,
+  sayHelloworld
 }

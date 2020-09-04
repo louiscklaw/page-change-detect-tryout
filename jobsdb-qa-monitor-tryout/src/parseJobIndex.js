@@ -1,5 +1,8 @@
+const fs = require('fs')
+const path = require('path')
+
 function sayHelloworld(){
-  console.log(`helloworld from ${__filename}`)
+  console.log(`helloworld from ${path.basename(__filename)}`)
 }
 
 function getJobDetailId(full_aria_described_by){
