@@ -20,19 +20,19 @@ jobs:
           concurrently -k "live-server --no-browser ." "node index.js" || true
         cd ..
 
-  # taobao_item_monitor:
-  #   runs-on: ubuntu-latest
-  #   steps:
-  #   - uses: actions/checkout@v2
-  #     env: # Or as an environment variable
-  #       SLACK_TOKEN: ${{ secrets.SLACK_TOKEN }}
-  #       GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+  taobao_item_monitor:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2
+      env: # Or as an environment variable
+        SLACK_TOKEN: ${{ secrets.SLACK_TOKEN }}
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
-  #     run: |
-  #       cd taobao-item-monitor
-  #         yarn
-  #         node index.js
-  #       cd ..
+      run: |
+        cd taobao-item-monitor
+          yarn
+          node index.js
+        cd ..
 
   # check_xiao_mi_9_pro_price:
   #   runs-on: ubuntu-latest
