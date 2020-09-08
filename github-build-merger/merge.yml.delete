@@ -1,14 +1,19 @@
-test_merger:
-  runs-on: ubuntu-latest
-  steps:
-    - name: checkout
-      uses: actions/checkout@v2
+# https://docs.github.com/en/actions/reference/workflow-syntax-for-github-actions#on
+# https://github.com/sdras/awesome-actions
 
-    - name: run test
+name: github-merger
+on: [push, pull_request]
+
+jobs:
+  test_merger:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2
+
+    - name: test merger
       env: # Or as an environment variable
         SLACK_TOKEN: ${{ secrets.SLACK_TOKEN }}
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        MY_GITHUB_TOKEN: ${{ secrets.MY_GITHUB_TOKEN }}
 
       run: |
         sudo apt update
@@ -25,18 +30,15 @@ test_merger:
         pipenv --help
         github-build-merger-tryout/test.sh
 
-merge:
-  needs: test_merger
-  runs-on: ubuntu-latest
-  steps:
-    - name: checkout
-      uses: actions/checkout@v2
-
-    - name: run merge
+  merge:
+    needs: test_merger
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2
+    - name: merge branch
       env: # Or as an environment variable
         SLACK_TOKEN: ${{ secrets.SLACK_TOKEN }}
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        MY_GITHUB_TOKEN: ${{ secrets.MY_GITHUB_TOKEN }}
 
       run: |
         sudo apt update
@@ -49,6 +51,10 @@ merge:
 
         export LC_ALL=C.UTF-8
         export LANG=C.UTF-8
+
+        pipenv --help
+
+
 
         cd github-build-merger-tryout
           pipenv sync

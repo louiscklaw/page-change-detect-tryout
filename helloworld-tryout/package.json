@@ -6,10 +6,25 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": ["ss", "softspiders", "puppeteer", "e2e", "test", "testing", "headless", "browser", "softspider", "helloworld", "hello-world", "min", "screenshot"],
+  "keywords": [
+    "ss",
+    "softspiders",
+    "puppeteer",
+    "e2e",
+    "test",
+    "testing",
+    "headless",
+    "browser",
+    "softspider",
+    "helloworld",
+    "hello-world",
+    "min",
+    "screenshot"
+  ],
   "author": "Alexander Lapygin",
   "license": "ISC",
   "dependencies": {
-    "puppeteer": "^1.14.0"
+    "live-server": "^1.2.1",
+    "puppeteer": "^5.2.1"
   }
 }
