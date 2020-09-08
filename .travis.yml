@@ -15,37 +15,39 @@ cache:
 
 jobs:
   include:
+
+    - stage: Unit_test
+      name: helloworld-tryout
+      script:
+        - cd helloworld-tryout
+        -   npm install -g concurrently
+        -   yarn
+        -   concurrently -k "live-server --no-browser ." "node index.js"
+        - cd ..
+
     - stage: check-xiao-mi-price
       name: xiao-mi price
       script:
         - cd check-xiao-mi-9-pro-price
-        - yarn
-        - node index.js
+        -   yarn
+        -   node index.js
         - cd ..
 
     - stage: check-taobao-item-price
       name: taobao item price
       script:
         - cd taobao-item-monitor
-        - yarn
-        - node index.js
-        - cd ..
-
-    - stage: helloworld-tryout
-      name: helloworld-tryout
-      script:
-        - cd helloworld-tryout
-        - yarn
-        - node index.js
+        -   yarn
+        -   node index.js
         - cd ..
 
     - stage: jobsdb-qa-monitor-tryout
       name: jobsdb-qa-monitor-tryout
       script:
         - cd jobsdb-qa-monitor-tryout
-        - yarn
-        - node src/test.js
-        - node src/index.js
+        -   yarn
+        -   node src/test.js
+        -   node src/index.js
         - cd ..
 
         #Display Firefox
@@ -118,5 +120,5 @@ jobs:
 
 import:
   - credentials.yml
-  - ./.travis-merger.yml
+  # - ./.travis-merger.yml
   - ./.travis-stages.yml

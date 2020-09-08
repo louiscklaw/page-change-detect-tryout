@@ -1,4 +1,5 @@
 .env
+.env.docker
 
 *.png
 **/node_modules
