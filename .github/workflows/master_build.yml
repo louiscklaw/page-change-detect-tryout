@@ -19,5 +19,5 @@ jobs:
         cd helloworld-tryout
           sudo npm install -g concurrently live-server
           yarn
-          concurrently -k "live-server --no-browser ." "node index.js"
+          concurrently -k "live-server --no-browser ." "node index.js" || true
         cd ..
