@@ -6,19 +6,21 @@ on: [push, pull_request]
 
 jobs:
   puppeteer_helloworld:
-    # https://docs.github.com/en/actions/reference/workflow-syntax-for-github-actions#jobsjob_idruns-on
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v2
 
-    - name: puppeteer_helloworld
+    - name: github-actions-helloworld-tryout
       env: # Or as an environment variable
         SLACK_TOKEN: ${{ secrets.SLACK_TOKEN }}
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
       run: |
-        echo 'helloworld'
-
+        cd github-actions-puppeteer-tryout
+          sudo npm install -g concurrently live-server
+          yarn
+          concurrently -k "live-server --no-browser ." "node index.js" || true
+        cd ..
 
   merge:
     needs: [puppeteer_helloworld]

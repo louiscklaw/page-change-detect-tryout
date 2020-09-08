@@ -1,0 +1,16 @@
+puppeteer_helloworld:
+  runs-on: ubuntu-latest
+  steps:
+  - uses: actions/checkout@v2
+
+  - name: github-actions-helloworld-tryout
+    env: # Or as an environment variable
+      SLACK_TOKEN: ${{ secrets.SLACK_TOKEN }}
+      GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+    run: |
+      cd github-actions-puppeteer-tryout
+        sudo npm install -g concurrently live-server
+        yarn
+        concurrently -k "live-server --no-browser ." "node index.js" || true
+      cd ..
