@@ -11,7 +11,7 @@ jobs:
     steps:
     - uses: actions/checkout@v2
 
-    - name: github-actions-helloworld-tryout
+    - name: puppeteer_helloworld
       env: # Or as an environment variable
         SLACK_TOKEN: ${{ secrets.SLACK_TOKEN }}
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
