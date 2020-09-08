@@ -2,5 +2,8 @@
 
 set -ex
 
-node ./src/index.js
+cd jobsdb-qa-monitor-tryout
+  node ./src/index.js
+cd ..
+
 # node ./fetch_graphql.js > job_detail.json

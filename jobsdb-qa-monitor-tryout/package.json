@@ -24,8 +24,10 @@
   "author": "Alexander Lapygin",
   "license": "ISC",
   "dependencies": {
+    "chalk": "^4.1.0",
     "hubdb": "^1.1.2",
     "lodash": "^4.17.20",
+    "mocha": "^8.1.3",
     "node-fetch": "^2.6.0",
     "puppeteer": "^1.14.0"
   }

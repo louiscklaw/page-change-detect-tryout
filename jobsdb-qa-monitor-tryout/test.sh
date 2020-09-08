@@ -3,5 +3,8 @@
 set -ex
 
 yarn
+# cd jobsdb-qa-monitor-tryout
+#   node js_test/index.js
+# cd ..
 
-node test/index.js
+./node_modules/mocha/bin/mocha

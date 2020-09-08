@@ -23,7 +23,7 @@ function test(){
 }
 
 module.exports={
-  sayHelloworld,
   getTestJobDetail,
+  sayHelloworld,
   test
 }

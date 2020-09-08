@@ -1,9 +1,9 @@
-const {_} = require('lodash')
-const {updateData, getData} = require('./hubdb_helper')
-
-const {
-  getJobsdbIndexWithPageNumber
-} = require('./jobsdb_utils')
+const fs = require('fs')
+const _ = require('lodash')
+const { updateData, getData, putNewJobsIdToIgnore } = require('./hubdb_helper')
+const { getJobsdbIndexWithPageNumber } = require('./jobsdb_utils')
+const { getNewJobsIdOnly } = require('./getNewJobsIdOnly')
+const { fetchJobDetail, getJobDetailQuery } = require('./JobDetail')
 
 // const {getJobTitleSlug} = require('./parseJobDetail')
 
@@ -15,39 +15,48 @@ async function testFetch() {
   try {
     var fetched_jobs_detail_id = []
 
-    // TODO: convert to promise here !
-    var json_jobs_id_ignore=[]
-    getData('jobs_id_ignore.json',(err, content)=>{
-      json_jobs_id_ignore = content
-      console.log(content)
+    // // TODO: convert to promise here !
+    // var json_jobs_id_ignore=[]
+    getData('jobs_id_ignore.json',(err, json_jobs_id_ignore)=>{
+      const str_json_jobs_id_ignore = json_jobs_id_ignore.map((x)=> x.toString())
+      // console.log(str_json_jobs_id_ignore)
+
+      extractJobsdbJobsIndexJobsDetailId(getJobsdbIndexWithPageNumber(0))
+        .then(fetched_jobs_detail_id => {
+          // json_jobs_id_ignore
+
+          const new_job_detail_id = getNewJobsIdOnly(fetched_jobs_detail_id, ['100003007947299'])
+
+          // return new_job_detail_id
+          return ['100003007947299','100003007947299']
+        })
+
+        .then((new_job_detail_id)=>{
+          Promise.all(
+            new_job_detail_id.map((x)=> fetchJobDetail( x ))
+          ).then((values)=>{
+            const job_details = values
+            console.log(job_details)
+            fs.writeFileSync('./new_job_details.json', JSON.stringify(job_details),{encoding:'utf-8'})
+          })
+          return new_job_detail_id
+        })
+        .then( (new_job_detail_id) => {
+
+          const merged_list=[...str_json_jobs_id_ignore, ...new_job_detail_id]
+
+          const int_merged_list = merged_list.map( x => parseInt(x))
+          console.log(int_merged_list)
+
+
+          putNewJobsIdToIgnore(int_merged_list, ()=>{
+            console.log('store to ignore list done')
+          })
+        })
+
+
     })
 
-    // E
-    for (i=0; i< 2+1; i++){
-      var temp = await extractJobsdbJobsIndexJobsDetailId(getJobsdbIndexWithPageNumber(i))
-      fetched_jobs_detail_id.push(...temp)
-    }
-
-    const new_job_detail_id = getNewJobsIdOnly(fetched_jobs_detail_id, json_jobs_id_ignore)
-
-    // T
-    fetchJobDetail(getJobDetailQuery('100003007950955'))
-
-    // L
-
-
-    // save
-
-    json_jobs_id_ignore.push(...all_jobs_detail_id)
-
-    // TODO: add sorting here
-    var json_to_store = _.uniq(json_jobs_id_ignore)
-
-    updateData('jobs_id_ignore.json',json_to_store,(err, res)=>{
-      console.log(res)
-    })
-
-    // done
 
   } catch (error) {
     console.error('error during running testFetch')
