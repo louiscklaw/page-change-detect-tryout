@@ -18,7 +18,9 @@ const removeJsonFile = (json_file_path, cb)=>db.remove(json_file_path, cb)
 const getData = (json_id, cb) => db.get(json_id, cb)
 const updateData = (json_id,data, cb)=>db.update(json_id, data, cb)
 
-const putNewJobsIdToIgnore = (o_id, cb) => updateData('jobs_id_ignore.json', o_id, cb)
+const putNewJobsIdToIgnore = (data, cb) => updateData('jobs_id_ignore.json', data, cb)
+
+const putNewJobsIdToTestJson = (data, cb) => updateData('test_jobs_id_ignore.json', data, cb)
 
 function sayHelloworld(){
   console.log(`helloworld from ${__filename}`)
@@ -31,5 +33,6 @@ module.exports={
   getData,
   updateData,
 
-  putNewJobsIdToIgnore
+  putNewJobsIdToIgnore,
+  putNewJobsIdToTestJson
 }

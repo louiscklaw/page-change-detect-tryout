@@ -25,10 +25,10 @@ async function testFetch() {
         .then(fetched_jobs_detail_id => {
           // json_jobs_id_ignore
 
-          const new_job_detail_id = getNewJobsIdOnly(fetched_jobs_detail_id, ['100003007947299'])
+          const new_job_detail_id = getNewJobsIdOnly(fetched_jobs_detail_id, str_json_jobs_id_ignore)
 
           // return new_job_detail_id
-          return ['100003007947299','100003007947299']
+          return new_job_detail_id
         })
 
         .then((new_job_detail_id)=>{
@@ -46,10 +46,8 @@ async function testFetch() {
           const merged_list=[...str_json_jobs_id_ignore, ...new_job_detail_id]
 
           const int_merged_list = merged_list.map( x => parseInt(x))
-          console.log(int_merged_list)
 
-
-          putNewJobsIdToIgnore(int_merged_list, ()=>{
+          putNewJobsIdToIgnore(_.uniq(int_merged_list).sort(), ()=>{
             console.log('store to ignore list done')
           })
         })

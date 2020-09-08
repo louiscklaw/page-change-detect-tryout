@@ -7,4 +7,6 @@ yarn
 #   node js_test/index.js
 # cd ..
 
-./node_modules/mocha/bin/mocha
+cd jobsdb-qa-monitor-tryout
+  ./node_modules/mocha/bin/mocha
+cd ..
