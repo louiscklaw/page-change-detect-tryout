@@ -133,10 +133,10 @@ def check_remote_branch_exist(branch_name, cwd):
       pass
 
 def categorize_branch(branch_to_test):
-
   if branch_to_test[0:4] == 'fix/':
     return CONST_BRANCH_FIX
   elif branch_to_test == 'develop':
+    print('findme')
     return CONST_BRANCH_DEVELOP
   elif branch_to_test == 'pre-merge-master':
     return CONST_BRANCH_PRE_MERGE_MASTER
@@ -345,6 +345,35 @@ def main(PUSH_URI, TEMP_DIR):
     # test branch will merge to feature branch
     print("this is test branch, will checkout to feature branch")
     process_test_branch(PUSH_URI, TRIGGERING_BRANCH, TEMP_DIR)
+
+  elif categorize_branch(TRIGGERING_BRANCH) == CONST_BRANCH_FEATURE:
+    # feature branch will merge to pre-merge branch
+    print("this is feature branch, will checkout to pre-merge branch")
+    process_feature_branch(PUSH_URI, TRIGGERING_BRANCH, TEMP_DIR)
+
+  elif categorize_branch(TRIGGERING_BRANCH) == CONST_BRANCH_FIX:
+    # fix branch will merge to pre-merge branch
+    print("this is fix branch, will checkout to pre-merge branch")
+    process_fix_branch(PUSH_URI, TRIGGERING_BRANCH, TEMP_DIR)
+
+  elif categorize_branch(TRIGGERING_BRANCH) == CONST_BRANCH_PRE_MERGE:
+    # pre-merge branch will merge to develop branch
+    print("this is pre-merge branch, will merge to develop branch")
+    process_pre_merge_branch(PUSH_URI, TRIGGERING_BRANCH, TEMP_DIR)
+
+  elif categorize_branch(TRIGGERING_BRANCH) == CONST_BRANCH_DEVELOP:
+    # develop branch will merge to pre-merge-master branch
+    print("this is develop branch, will merge to pre-merge-master branch")
+    process_develop_branch(PUSH_URI, TRIGGERING_BRANCH, TEMP_DIR)
+
+  elif categorize_branch(TRIGGERING_BRANCH) == CONST_BRANCH_PRE_MERGE_MASTER:
+    # pre-merge-master branch will merge to master branch
+    print("this is pre-merge-master branch, will merge to master branch")
+    process_pre_merge_master_branch(PUSH_URI, TRIGGERING_BRANCH, TEMP_DIR)
+
+  elif categorize_branch(TRIGGERING_BRANCH) == CONST_BRANCH_DEPENDABOT:
+    print("this is dependabot branch, will go to merge PR if pass")
+    process_dependabot_PR(PUSH_URI, TRIGGERING_BRANCH, TEMP_DIR)
 
   else:
     print('no merge direction for this branch')
