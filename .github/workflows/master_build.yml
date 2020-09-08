@@ -9,44 +9,19 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v2
+
+    - name: github-actions-helloworld-tryout
       env: # Or as an environment variable
         SLACK_TOKEN: ${{ secrets.SLACK_TOKEN }}
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
       run: |
-        cd helloworld-tryout
+        cd github-actions-puppeteer-tryout
           sudo npm install -g concurrently live-server
           yarn
           concurrently -k "live-server --no-browser ." "node index.js" || true
         cd ..
 
-  taobao_item_monitor:
-    runs-on: ubuntu-latest
-    steps:
-    - uses: actions/checkout@v2
-      env: # Or as an environment variable
-        SLACK_TOKEN: ${{ secrets.SLACK_TOKEN }}
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-
-      run: |
-        cd taobao-item-monitor
-          yarn
-          node index.js
-        cd ..
-
-  check_xiao_mi_9_pro_price:
-    runs-on: ubuntu-latest
-    steps:
-    - uses: actions/checkout@v2
-      env: # Or as an environment variable
-        SLACK_TOKEN: ${{ secrets.SLACK_TOKEN }}
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-
-      run: |
-        cd check-xiao-mi-9-pro-price
-          yarn
-          node index.js
-        cd ..
 
   merge:
     needs: [puppeteer_helloworld, taobao_item_monitor, check_xiao_mi_9_pro_price]
