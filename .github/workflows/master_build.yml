@@ -24,7 +24,7 @@ jobs:
 
 
   merge:
-    needs: [puppeteer_helloworld, taobao_item_monitor, check_xiao_mi_9_pro_price]
+    needs: [puppeteer_helloworld]
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v2
