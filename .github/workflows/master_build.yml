@@ -40,8 +40,6 @@ jobs:
 
           pipenv --help
 
-
-
           cd github-build-merger
             pipenv sync
 
