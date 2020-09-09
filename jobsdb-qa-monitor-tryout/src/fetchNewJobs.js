@@ -32,6 +32,8 @@ async function testFetch() {
         })
 
         .then((new_job_detail_id)=>{
+          // fetch new job detail
+
           Promise.all(
             new_job_detail_id.map((x)=> fetchJobDetail( x ))
           ).then((values)=>{
@@ -39,9 +41,12 @@ async function testFetch() {
             console.log(job_details)
             fs.writeFileSync('./new_job_details.json', JSON.stringify(job_details),{encoding:'utf-8'})
           })
+
           return new_job_detail_id
+
         })
         .then( (new_job_detail_id) => {
+          // store processed jobs id into ignore list
 
           const merged_list=[...str_json_jobs_id_ignore, ...new_job_detail_id]
 
