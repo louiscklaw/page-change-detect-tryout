@@ -1,9 +1,5 @@
-'use strict';
-
 const fs = require('fs')
 const path = require('path')
-
-const assert = require('assert');
 
 const puppeteer = require('puppeteer');
 const {getJobDetailId} = require('./parseJobIndex')
@@ -11,8 +7,6 @@ const {getJobDetailId} = require('./parseJobIndex')
 const tidyParagraph = (para_in) => {
   return para_in.replace(/ /g,'').replace(/\n/g,'')
 }
-
-
 
 async function extractJobsdbJobsIndexJobsDetailId(url_to_extract) {
   var output=[]

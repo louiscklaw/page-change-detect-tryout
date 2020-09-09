@@ -1,6 +1,8 @@
 const fs = require('fs')
 const _ = require('lodash')
-const { updateData, getData, putNewJobsIdToIgnore } = require('./hubdb_helper')
+
+const { updateData, getData, putNewJobsIdToIgnore } = require('./lib/hubdb_helper')
+
 const { getJobsdbIndexWithPageNumber } = require('./jobsdb_utils')
 const { getNewJobsIdOnly } = require('./getNewJobsIdOnly')
 const { fetchJobDetail, getJobDetailQuery } = require('./JobDetail')

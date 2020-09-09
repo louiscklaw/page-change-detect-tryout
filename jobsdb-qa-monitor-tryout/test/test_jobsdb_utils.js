@@ -4,9 +4,9 @@ const process = require('process')
 
 const {_} = require('lodash')
 
-const {SRC_HOME, TEST_HOME} = require('./common')
+const {SRC_LIB, TEST_HOME} = require('./common')
 
-const jobsdb_utils = require(`${SRC_HOME}/jobsdb_utils`)
+const jobsdb_utils = require(`${SRC_LIB}/jobsdb_utils`)
 
 function assertEqualArray(aA,aB, msg) {
   console.assert(JSON.stringify(_.sortedUniq(aA))==JSON.stringify(_.sortedUniq(aB)), msg)

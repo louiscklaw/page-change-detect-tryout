@@ -1,7 +1,7 @@
 const fs = require('fs')
-const {SRC_HOME, TEST_HOME} = require('./common')
+const {SRC_LIB, TEST_HOME} = require('./common')
 
-const parseJobDetail = require(`${SRC_HOME}/parseJobDetail`)
+const parseJobDetail = require(`${SRC_LIB}/parseJobDetail`)
 
 const test_job_detail_json = fs.readFileSync(`${TEST_HOME}/test_job_detail.json`,{encoding:'utf-8'})
 

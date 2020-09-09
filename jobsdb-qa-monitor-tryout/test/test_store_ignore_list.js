@@ -4,9 +4,9 @@ const process = require('process')
 const chalk = require('chalk')
 const {_} = require('lodash')
 
-const {SRC_HOME, TEST_HOME} = require('./common')
+const {SRC_LIB, SRC_HOME, TEST_HOME} = require('./common')
 
-const hubdb_helper = require(`${SRC_HOME}/hubdb_helper`)
+const hubdb_helper = require(`${SRC_LIB}/hubdb_helper`)
 
 function test_store_to_ignore_list_procedure(){
 

@@ -6,10 +6,10 @@ const {_} = require('lodash')
 
 const {SRC_LIB, TEST_HOME, trueIfEqualArray} = require('./common')
 
-const helloworld = require(`${SRC_LIB}/helloworld`)
+const selectJobDetailLogic = require(`${SRC_LIB}/selectJobDetailLogic`)
 
 function test_sayHelloworld(){
-  return helloworld.sayHelloworld()
+  return selectJobDetailLogic.sayHelloworld()
 }
 
 function test(){
