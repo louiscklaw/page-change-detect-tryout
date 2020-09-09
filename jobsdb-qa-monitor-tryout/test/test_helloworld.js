@@ -2,7 +2,7 @@ const fs = require('fs')
 const path = require('path')
 const process = require('process')
 const chalk = require('chalk')
-const {_} = require('lodash')
+const _ = require('lodash')
 
 const {SRC_LIB, TEST_HOME, trueIfEqualArray} = require('./common')
 

@@ -2,14 +2,14 @@ const fs = require('fs')
 const path = require('path')
 const process = require('process')
 const chalk = require('chalk')
-const {_} = require('lodash')
+const _ = require('lodash')
 
 const {SRC_LIB, TEST_HOME, trueIfEqualArray} = require('./common')
 
-const selectJobDetailLogic = require(`${SRC_LIB}/selectJobDetailLogic`)
+const rateJob = require(`${SRC_LIB}/rateJob`)
 
 function test_sayHelloworld(){
-  return selectJobDetailLogic.sayHelloworld()
+  return rateJob.sayHelloworld()
 }
 
 function test(){
