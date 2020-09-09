@@ -8,5 +8,5 @@ yarn
 # cd ..
 
 cd jobsdb-qa-monitor-tryout
-  ./node_modules/mocha/bin/mocha
+  node test/index.js
 cd ..
