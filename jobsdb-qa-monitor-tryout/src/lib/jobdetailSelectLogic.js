@@ -16,10 +16,17 @@ const {
 } = require('./parseJobDetail')
 
 function jobdetailSelectLogic(json_in){
+
   const marks = json_in.map(
-    x => [x, rateJob(x)]
+    x => {
+      return{
+        ...x,
+        marks: rateJob(x)
+      }
+    }
   )
-  return marks.filter(x => x > 5)
+
+  return marks.filter(x => x.marks > 0)
 }
 
 function sendSlackAlert(json_in){

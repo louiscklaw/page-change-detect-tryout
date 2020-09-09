@@ -1,9 +1,20 @@
 const path = require('path')
+const {countByOccurence} = require('./countByOccurence')
+
+const parseJobDetail = require('./parseJobDetail')
+const ratingUtil = require('./ratingUtil')
+
+function performWordCount(json_in){
+  const job_title = parseJobDetail.getJobTitle(json_in)
+  console.log(parseJobDetail.getJobId(json_in))
+
+  return [
+      countByOccurence(job_title, 'QA'),
+    ]
+}
 
 function rateJob(json_in){
-  return  [
-    1,2,3,4,5
-    ].reduce((x,y) => x+y)
+  return  performWordCount(json_in).reduce((x,y) => x+y)
 }
 
 function sayHelloworld(){

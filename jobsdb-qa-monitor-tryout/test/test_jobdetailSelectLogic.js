@@ -1,10 +1,14 @@
-const fs = require('fs')
-const path = require('path')
-const process = require('process')
-const chalk = require('chalk')
-const _ = require('lodash')
+const {
+  SRC_LIB,
+  TEST_HOME,
+  trueIfEqualArray,
+  JSON_SAMPLE_JOB_DETAIL,
+  JSON_SAMPLE_NEW_JOB_DETAILS
+} = require( './common' )
 
-const {SRC_LIB, TEST_HOME, trueIfEqualArray, JSON_SAMPLE_NEW_JOB_DETAILS} = require('./common')
+const parseJobDetail = require(`${SRC_LIB}/parseJobDetail`)
+
+const { assert } = require( 'console' )
 
 const jobdetailSelectLogic = require(`${SRC_LIB}/jobdetailSelectLogic`)
 
@@ -13,9 +17,11 @@ function test_sendSlackAlert(){
 }
 
 function test_jobdetailSelectLogic(){
-  jobdetailSelectLogic.jobdetailSelectLogic(
-    JSON_SAMPLE_NEW_JOB_DETAILS
-  )
+  const result = jobdetailSelectLogic.jobdetailSelectLogic(JSON_SAMPLE_NEW_JOB_DETAILS).sort()
+
+  assert(parseJobDetail.getJobId(result[0])=='100003007961010', 'test_jobdetailSelectLogic failed')
+
+  assert(1==1, 'helloworld')
 }
 
 function test_sayHelloworld(){

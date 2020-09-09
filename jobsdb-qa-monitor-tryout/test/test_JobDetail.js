@@ -1,16 +1,5 @@
-const fs = require('fs')
-const path = require('path')
-const process = require('process')
-
-const _ = require('lodash')
-
 const {SRC_LIB, TEST_HOME} = require('./common')
-
 const JobDetail = require(`${SRC_LIB}/JobDetail`)
-
-function assertEqualArray(aA,aB, msg) {
-  console.assert(JSON.stringify(_.sortedUniq(aA))==JSON.stringify(_.sortedUniq(aB)), msg)
-}
 
 function test_getRequestBody(){
   var {getJobDetailQuery} = JobDetail

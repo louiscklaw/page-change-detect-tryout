@@ -66,7 +66,8 @@ async function testFetch() {
 
         // update and send slack if job fullfill requirement
         const job_details_meet_requirement = jobdetailSelectLogic(job_details)
-        const test = sendSlackAlert(job_details_meet_requirement)
+        // console.log(job_details_meet_requirement)
+        // const test = sendSlackAlert(job_details_meet_requirement)
 
         // console.log(job_details)
         return new_job_detail_id

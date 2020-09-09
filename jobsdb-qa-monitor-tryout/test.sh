@@ -7,6 +7,5 @@ yarn
 #   node js_test/index.js
 # cd ..
 
-cd jobsdb-qa-monitor-tryout
-  node test/index.js
-cd ..
+node test/test_requires.js
+node test/index.js
