@@ -32,6 +32,10 @@ jobs:
             node index.js
             node src/lib/comparePng.js expected-screencapture/redmi-node-9-pro-screencapture.png redmi-node-9-pro-screencapture.png "https://www.mi.com/hk/redmi-note-9-pro/ page changed"
           cd ..
+        env: # Or as an environment variable
+          SLACK_TOKEN: ${{ secrets.SLACK_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          MY_GITHUB_TOKEN: ${{ secrets.MY_GITHUB_TOKEN }}
 
       - uses: actions/upload-artifact@master
         with:

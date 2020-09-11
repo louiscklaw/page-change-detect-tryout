@@ -29,6 +29,10 @@ jobs:
             yarn
             node src/lib/comparePng.js --drill "drill message on routine-xiao-mi-9-pro-drill"
           cd ..
+        env: # Or as an environment variable
+          SLACK_TOKEN: ${{ secrets.SLACK_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          MY_GITHUB_TOKEN: ${{ secrets.MY_GITHUB_TOKEN }}
 
       - uses: actions/upload-artifact@master
         with:
