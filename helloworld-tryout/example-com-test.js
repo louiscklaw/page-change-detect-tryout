@@ -13,7 +13,7 @@ async function exampe_com_check() {
 
   await page.goto('http://www.example.com/');
 
-  await page.screenshot({ path: 'screen-capture.png' });
+  await page.screenshot({ path: 'example-com.png' });
 
   await browser.close();
 
