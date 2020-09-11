@@ -9,7 +9,9 @@ const tidyParagraph = (para_in) => {
 }
 
 async function xiaomiPriceChangeCheck() {
-  const browser = await puppeteer.launch();
+  const browser = await puppeteer.launch({
+    headless: true
+  });
 
   const page = await browser.newPage();
 
