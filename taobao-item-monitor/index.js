@@ -30,7 +30,7 @@ async function taobaoItemCheck() {
     await page.screenshot({path: 'taobao-GTX1050ti.png'});
 
     const live_text = await page.$eval('.tb-meta', el => el.innerText);
-    const expected_text = tidyParagraph(`价格\n¥1399.00`)
+    const expected_text = tidyParagraph(`价格¥1399.00-累计评论-交易成功`)
 
     console.log('tidyParagraph(live_text)', tidyParagraph(live_text))
     console.log('expected_text',expected_text)
