@@ -33,4 +33,4 @@ jobs:
 
       - uses: actions/upload-artifact@master
         with:
-          path: check-xiao-mi-9-pro-price/taobao-GTX1050ti.png
+          path: check-xiao-mi-9-pro-price/redmi-node-9-pro-screencapture.png
