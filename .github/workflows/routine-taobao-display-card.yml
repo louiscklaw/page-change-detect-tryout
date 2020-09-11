@@ -27,10 +27,10 @@ jobs:
 
       - run: npm i --no-optional --no-audit puppeteer pixelmatch pngjs
       - run: |
-        cd taobao-item-monitor
-          node index.js
-        cd ..
+          cd taobao-item-monitor
+            node index.js
+          cd ..
 
       - uses: actions/upload-artifact@master
         with:
-          path: taobao-item-monitor/taobao-GTX1050ti.png
+          path: taobao-item-monitor/*.png
