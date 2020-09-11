@@ -27,8 +27,9 @@ jobs:
           cd helloworld-tryout
             yarn
             node example-com-test.js
-      #       node web-time-clock.js
           cd ..
+
+      #       node web-time-clock.js
 
         # env:
         #   PORT: 0
