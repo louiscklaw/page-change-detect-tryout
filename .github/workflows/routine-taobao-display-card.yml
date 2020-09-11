@@ -34,13 +34,3 @@ jobs:
       - uses: actions/upload-artifact@master
         with:
           path: taobao-item-monitor/taobao-GTX1050ti.png
-
-      # - name: routine-taobao-display-card
-      #   env:
-      #     SLACK_TOKEN: ${{ secrets.SLACK_TOKEN }}
-      #     GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-      #   run: |
-      #     cd taobao-item-monitor
-      #       yarn
-      #       node index.js
-      #     cd ..
