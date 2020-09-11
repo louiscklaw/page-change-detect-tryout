@@ -21,8 +21,9 @@ jobs:
       script:
         - cd helloworld-tryout
         -   npm install -g concurrently
+        -   npm install -g live-server
         -   yarn
-        -   concurrently -k "live-server --no-browser ." "node index.js"
+        -   concurrently -s first -k "live-server --no-browser ." "node index.js"
         - cd ..
 
     - stage: check-xiao-mi-price
@@ -105,20 +106,7 @@ jobs:
         - cd -
         # jobsdb-qa-monitor-tryout end
 
-
-
-
-
-
-
-
-
-
-
-
-
-
 import:
   - credentials.yml
-  # - ./.travis-merger.yml
+  - ./.travis-merger.yml
   - ./.travis-stages.yml
