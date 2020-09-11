@@ -2,6 +2,7 @@
 # https://github.com/sdras/awesome-actions
 
 name: github-actions-helloworld
+
 on: [push, pull_request]
 
 jobs:

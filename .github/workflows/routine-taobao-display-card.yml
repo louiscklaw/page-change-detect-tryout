@@ -4,6 +4,7 @@
 name: github-actions-helloworld
 
 on:
+  push:
   schedule:
     - cron:  '0/15 * * * *'
 
