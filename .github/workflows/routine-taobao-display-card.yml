@@ -12,14 +12,36 @@ jobs:
   routine-taobao-display-card:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
-      - name: routine-taobao-display-card
-        env:
-          SLACK_TOKEN: ${{ secrets.SLACK_TOKEN }}
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
-        run: |
-          cd taobao-item-monitor
-            yarn
-            node index.js
-          cd ..
+      - uses: actions/checkout@v1
+        with:
+          fetch-depth: 1
+
+      - name: Cache node modules
+        uses: actions/cache@v1
+        with:
+          path: ~/.npm
+          key: ${{ runner.OS }}-build-puppeteer
+          restore-keys: |
+            ${{ runner.OS }}-build-puppeteer
+
+      - run: npm i --no-optional --no-audit puppeteer pixelmatch pngjs
+      - run: |
+        cd taobao-item-monitor
+          node index.js
+        cd ..
+
+      - uses: actions/upload-artifact@master
+        with:
+          name: screenshot-puppeteer-darwin
+          path: screen-capture.png
+
+      # - name: routine-taobao-display-card
+      #   env:
+      #     SLACK_TOKEN: ${{ secrets.SLACK_TOKEN }}
+      #     GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      #   run: |
+      #     cd taobao-item-monitor
+      #       yarn
+      #       node index.js
+      #     cd ..

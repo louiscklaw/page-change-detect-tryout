@@ -36,7 +36,7 @@ async function taobaoItemCheck() {
     console.log(error.name)
 
     if (error.name == 'AssertionError [ERR_ASSERTION]'){
-      sendSlackMessage('page changed','./taobao.png', `expected: ${expected_text}, live: ${live_text}`)
+      sendSlackMessage('page changed','./taobao-display-card.png', `expected: ${expected_text}, live: ${live_text}`)
       throw error
     }else{
       process.exit(99)
