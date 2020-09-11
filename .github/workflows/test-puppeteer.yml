@@ -22,18 +22,18 @@ jobs:
             ${{ runner.OS }}-build-puppeteer
 
       - run: npm i --no-optional --no-audit puppeteer pixelmatch pngjs
+      - run: node .github/actions-scripts/puppeteer.js
+      # - run: |
+      #     cd helloworld-tryout
+      #       yarn
+      #       node example-com-test.js
+      #       node web-time-clock.js
+      #     cd ..
 
-      - run: |
-          cd helloworld-tryout
-            yarn
-            node example-com-test.js
-            node web-time-clock.js
-          cd ..
+        # env:
+        #   PORT: 0
+        #   NODE_ENV: production # prevent watching
 
-        env:
-          PORT: 0
-          NODE_ENV: production # prevent watching
-
-      - uses: actions/upload-artifact@master
-        with:
-          path: helloworld-tryout/*.png
+      # - uses: actions/upload-artifact@master
+      #   with:
+      #     path: helloworld-tryout/*.png
