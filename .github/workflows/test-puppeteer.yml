@@ -26,6 +26,7 @@ jobs:
       - run: |
           cd helloworld-tryout
             node example-com-test.js
+            node web-time-clock.js
           cd ..
 
         env:
@@ -34,5 +35,4 @@ jobs:
 
       - uses: actions/upload-artifact@master
         with:
-          name: screenshot-puppeteer-darwin
-          path: screen-capture.png
+          path: helloworld-tryout/*.png
