@@ -23,17 +23,13 @@ jobs:
 
       - run: npm i --no-optional --no-audit puppeteer pixelmatch pngjs
       # - run: node .github/actions-scripts/puppeteer.js
+
       - run: |
           cd helloworld-tryout
             yarn
             node example-com-test.js
+            node web-time-clock.js
           cd ..
-
-      #       node web-time-clock.js
-
-        # env:
-        #   PORT: 0
-        #   NODE_ENV: production # prevent watching
 
       - uses: actions/upload-artifact@master
         with:
