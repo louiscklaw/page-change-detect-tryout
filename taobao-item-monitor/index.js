@@ -13,7 +13,13 @@ const sendSlackMessage = () => {
 
 async function taobaoItemCheck() {
   try {
-    const browser = await puppeteer.launch();
+    const browser = await puppeteer.launch({
+      ignoreHTTPSErrors: true,
+      defaultViewport: {
+        width: 1920,
+        height:1080*10
+      }
+    });
     const page = await browser.newPage();
     await page.goto('https://item.taobao.com/item.htm?spm=a230r.1.14.271.57d92d26yyBaXB&id=611982217209&ns=1&abbucket=6#detail');
     // await page.screenshot({path: 'taobao-GTX1050ti.png'});
