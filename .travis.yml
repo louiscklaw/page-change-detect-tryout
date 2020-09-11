@@ -21,7 +21,7 @@ jobs:
         - cd helloworld-tryout
         -   npm install -g concurrently
         -   yarn
-        -   concurrently -s -k "live-server --no-browser ." "node index.js"
+        -   concurrently -s first -k "live-server --no-browser ." "node index.js"
         - cd ..
 
 import:
