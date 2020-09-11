@@ -28,7 +28,9 @@ jobs:
       - run: npm i --no-optional --no-audit puppeteer pixelmatch pngjs
       - run: |
           cd taobao-item-monitor
+              yarn
             node index.js
+            node src/lib/comparePng.js expected-screencapture/expected.png current_capture.png "https://item.taobao.com/item.htm?spm=a230r.1.14.271.57d92d26yyBaXB&id=611982217209&ns=1&abbucket=6#detail page changed"
           cd ..
         env: # Or as an environment variable
           SLACK_TOKEN: ${{ secrets.SLACK_TOKEN }}

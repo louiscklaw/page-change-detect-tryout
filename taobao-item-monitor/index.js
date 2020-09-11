@@ -1,14 +1,10 @@
-'use strict';
-
 const assert = require('assert');
 const puppeteer = require('puppeteer');
 
+const { WebClient } = require('@slack/web-api');
+
 const tidyParagraph = (para_in) => {
   return para_in.replace(/ /g,'').replace(/\n/g,'')
-}
-
-const sendSlackMessage = () => {
-  console.log('shall i implement this ?')
 }
 
 async function taobaoItemCheck() {
@@ -24,10 +20,11 @@ async function taobaoItemCheck() {
     await page.goto('https://item.taobao.com/item.htm?spm=a230r.1.14.271.57d92d26yyBaXB&id=611982217209&ns=1&abbucket=6#detail');
     // await page.screenshot({path: 'taobao-GTX1050ti.png'});
 
-    await page.waitFor(10000);
+    await page.waitFor(30000);
+
     await page.waitForSelector('#sufei-dialog-close')
     await page.click('#sufei-dialog-close');
-    await page.screenshot({path: 'taobao-GTX1050ti.png'});
+    await page.screenshot({path: 'current_capture.png'});
 
     const live_text = await page.$eval('.tb-meta', el => el.innerText);
     const expected_text = tidyParagraph(`价格¥1399.00-累计评论-交易成功`)
@@ -36,7 +33,9 @@ async function taobaoItemCheck() {
     console.log('expected_text',expected_text)
 
     await browser.close();
+
     assert.equal(tidyParagraph(live_text), expected_text, 'taobaoItemCheck changed')
+
   } catch (error) {
 
     console.log(error.name)
