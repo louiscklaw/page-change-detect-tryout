@@ -15,7 +15,7 @@ async function xiaomiPriceChangeCheck() {
 
   await page.goto('https://www.mi.com/hk/redmi-note-9-pro');
 
-  await page.screenshot({ path: 'wikipedia-helloworld.png' });
+  await page.screenshot({ path: 'redmi-node-9-pro-screencapture.png' });
 
   const live_price_paragraph = await page.$eval('.text-content', el => el.innerText);
 
