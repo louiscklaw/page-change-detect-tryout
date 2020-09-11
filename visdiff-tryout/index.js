@@ -7,7 +7,7 @@ const img2 = PNG.sync.read(fs.readFileSync('helloworld-2.png'));
 const {width, height} = img1;
 const diff = new PNG({width, height});
 
-pixelmatch(
+const numDiffPixels = pixelmatch(
   img1.data,
   img2.data,
   diff.data,
@@ -16,4 +16,4 @@ pixelmatch(
   {threshold: 0.1}
 );
 
-fs.writeFileSync('diff.png', PNG.sync.write(diff));
+console.log(numDiffPixels)

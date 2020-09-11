@@ -1,8 +1,7 @@
-'use strict';
-
 const assert = require('assert');
 const puppeteer = require('puppeteer');
 
+const { WebClient } = require('@slack/web-api');
 
 const tidyParagraph = (para_in) => {
   return para_in.replace(/ /g,'').replace(/\n/g,'')
@@ -45,6 +44,7 @@ async function xiaomiPriceChangeCheck() {
   await browser.close();
 
   assert.equal(tidyed_expected_price_paragraph, tidyed_live_price_paragraph, 'xiao mi note 9 pro price changed !!!!')
+
 }
 
 xiaomiPriceChangeCheck();
