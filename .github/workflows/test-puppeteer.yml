@@ -35,6 +35,6 @@ jobs:
         #   PORT: 0
         #   NODE_ENV: production # prevent watching
 
-      # - uses: actions/upload-artifact@master
-      #   with:
-      #     path: helloworld-tryout/*.png
+      - uses: actions/upload-artifact@master
+        with:
+          path: helloworld-tryout/*.png
