@@ -1,21 +1,26 @@
-'use strict';
-
 const assert = require('assert');
 const puppeteer = require('puppeteer');
 
+const { WebClient } = require('@slack/web-api');
 
 const tidyParagraph = (para_in) => {
   return para_in.replace(/ /g,'').replace(/\n/g,'')
 }
 
 async function xiaomiPriceChangeCheck() {
-  const browser = await puppeteer.launch();
+  const browser = await puppeteer.launch({
+    ignoreHTTPSErrors: true,
+    defaultViewport: {
+      width: 1920,
+      height:1080*10
+    }
+  });
 
   const page = await browser.newPage();
 
   await page.goto('https://www.mi.com/hk/redmi-note-9-pro');
 
-  await page.screenshot({ path: 'wikipedia-helloworld.png' });
+  await page.screenshot({ path: 'redmi-node-9-pro-screencapture.png' });
 
   const live_price_paragraph = await page.$eval('.text-content', el => el.innerText);
 
@@ -39,6 +44,7 @@ async function xiaomiPriceChangeCheck() {
   await browser.close();
 
   assert.equal(tidyed_expected_price_paragraph, tidyed_live_price_paragraph, 'xiao mi note 9 pro price changed !!!!')
+
 }
 
 xiaomiPriceChangeCheck();

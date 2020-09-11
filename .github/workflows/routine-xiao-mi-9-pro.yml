@@ -1,0 +1,42 @@
+# https://docs.github.com/en/actions/reference/workflow-syntax-for-github-actions#on
+# https://github.com/sdras/awesome-actions
+
+name: routine-xiao-mi-9-pro
+
+on:
+  push:
+  schedule:
+    - cron:  '0/15 * * * *'
+
+jobs:
+  routine-xiao-mi-9-pro:
+    runs-on: ubuntu-latest
+    steps:
+
+      - uses: actions/checkout@v1
+        with:
+          fetch-depth: 1
+
+      - name: Cache node modules
+        uses: actions/cache@v1
+        with:
+          path: ~/.npm
+          key: ${{ runner.OS }}-build-puppeteer
+          restore-keys: |
+            ${{ runner.OS }}-build-puppeteer
+
+      - run: npm i --no-optional --no-audit puppeteer pixelmatch pngjs
+      - run: |
+          cd check-xiao-mi-9-pro-price
+            yarn
+            node index.js
+            node src/lib/comparePng.js expected-screencapture/redmi-node-9-pro-screencapture.png redmi-node-9-pro-screencapture.png "https://www.mi.com/hk/redmi-note-9-pro/ page changed"
+          cd ..
+        env: # Or as an environment variable
+          SLACK_TOKEN: ${{ secrets.SLACK_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          MY_GITHUB_TOKEN: ${{ secrets.MY_GITHUB_TOKEN }}
+
+      - uses: actions/upload-artifact@master
+        with:
+          path: check-xiao-mi-9-pro-price/*.png

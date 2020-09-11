@@ -10,6 +10,8 @@
   "author": "Alexander Lapygin",
   "license": "ISC",
   "dependencies": {
-    "puppeteer": "^1.14.0"
+    "puppeteer": "^1.14.0",
+    "@slack/events-api": "^2.3.4",
+    "@slack/web-api": "^5.11.0"
   }
 }

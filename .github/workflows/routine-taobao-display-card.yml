@@ -1,0 +1,42 @@
+# https://docs.github.com/en/actions/reference/workflow-syntax-for-github-actions#on
+# https://github.com/sdras/awesome-actions
+
+name: routine-taobao-display-card
+
+on:
+  push:
+  schedule:
+    - cron:  '0/15 * * * *'
+
+jobs:
+  routine-taobao-display-card:
+    runs-on: ubuntu-latest
+    steps:
+
+      - uses: actions/checkout@v1
+        with:
+          fetch-depth: 1
+
+      - name: Cache node modules
+        uses: actions/cache@v1
+        with:
+          path: ~/.npm
+          key: ${{ runner.OS }}-build-puppeteer
+          restore-keys: |
+            ${{ runner.OS }}-build-puppeteer
+
+      - run: npm i --no-optional --no-audit puppeteer pixelmatch pngjs
+      - run: |
+          cd taobao-item-monitor
+              yarn
+            node index.js
+            node src/lib/comparePng.js expected-screencapture/expected.png current_capture.png "https://item.taobao.com/item.htm?spm=a230r.1.14.271.57d92d26yyBaXB&id=611982217209&ns=1&abbucket=6#detail page changed"
+          cd ..
+        env: # Or as an environment variable
+          SLACK_TOKEN: ${{ secrets.SLACK_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          MY_GITHUB_TOKEN: ${{ secrets.MY_GITHUB_TOKEN }}
+
+      - uses: actions/upload-artifact@master
+        with:
+          path: taobao-item-monitor/*.png
