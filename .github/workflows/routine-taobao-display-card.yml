@@ -19,4 +19,7 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
         run: |
-          echo 'helloworld'
+          cd taobao-item-monitor
+            yarn
+            node index.js
+          cd ..

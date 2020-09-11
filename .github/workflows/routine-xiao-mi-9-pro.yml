@@ -9,14 +9,17 @@ on:
     - cron:  '0/15 * * * *'
 
 jobs:
-  routine_xiao_mi_9_pro_price:
+  routine-xiao-mi-9-pro:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
-      - name: github-actions-helloworld-tryout
+      - name: routine-xiao-mi-9-pro
         env:
           SLACK_TOKEN: ${{ secrets.SLACK_TOKEN }}
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
         run: |
-          echo 'helloworld'
+          cd check-xiao-mi-9-pro-price
+            yarn
+            node index.js
+          cd ..
