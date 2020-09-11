@@ -27,7 +27,6 @@ jobs:
           NODE_ENV: production # prevent watching
 
       - uses: actions/upload-artifact@master
-        if: failure()
         with:
           name: screenshot-puppeteer-darwin
           path: screenshot
