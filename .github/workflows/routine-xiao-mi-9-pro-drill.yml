@@ -26,6 +26,7 @@ jobs:
       - run: npm i --no-optional --no-audit puppeteer pixelmatch pngjs
       - run: |
           cd check-xiao-mi-9-pro-price
+            yarn
             node src/lib/comparePng.js --drill "drill message on routine-xiao-mi-9-pro-drill"
           cd ..
 

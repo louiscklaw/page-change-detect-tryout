@@ -28,6 +28,7 @@ jobs:
       - run: npm i --no-optional --no-audit puppeteer pixelmatch pngjs
       - run: |
           cd check-xiao-mi-9-pro-price
+            yarn
             node index.js
             node src/lib/comparePng.js expected-screencapture/redmi-node-9-pro-screencapture.png redmi-node-9-pro-screencapture.png "https://www.mi.com/hk/redmi-note-9-pro/ page changed"
           cd ..
