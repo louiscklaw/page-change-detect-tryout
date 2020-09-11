@@ -7,11 +7,12 @@ on: [push]
 
 jobs:
   test-puppeteer:
-    runs-on: macos-latest
+    runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v1
         with:
           fetch-depth: 1
+
       - name: Cache node modules
         uses: actions/cache@v1
         with:
