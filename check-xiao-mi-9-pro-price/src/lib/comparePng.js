@@ -8,7 +8,7 @@ const token = process.env.SLACK_TOKEN;
 const web = new WebClient(token);
 const conversationId = '_page_change_alert';
 
-
+const diff_threshold = 59650
 // const actual_png_filepath='redmi-node-9-pro-screencapture.png'
 const drill_png_filepath_a='expected-screencapture/helloworld-1.png'
 const drill_png_filepath_b='expected-screencapture/redmi-node-9-pro-screencapture.png'
@@ -62,8 +62,9 @@ if (process.argv){
 
     const compare_result = compare_png(expected_png_filepath, actual_png_filepath)
 
-    if (compare_result > 10){
-      console.log(`pixel difference: ${compare_result}`)
+    console.log(`pixel difference: ${compare_result}`)
+
+    if (compare_result > diff_threshold){
 
       (async (message) => {
         // See: https://api.slack.com/methods/chat.postMessage
@@ -72,6 +73,8 @@ if (process.argv){
         // `res` contains information about the posted message
         console.log('Message sent: ', res.ts);
       })(alert_message);
+
+      console.assert(False,'difference found.')
 
     }else{
       console.log('the screen capture are the same.')

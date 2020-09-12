@@ -11,4 +11,4 @@ node index.js
 # compare screen capture, send message if not match
 node src/lib/comparePng.js expected-screencapture/redmi-node-9-pro-screencapture.png redmi-node-9-pro-screencapture.png "message"
 
-node src/lib/comparePng.js --drill "drill message on routine-xiao-mi-9-pro-drill"
+# node src/lib/comparePng.js --drill "drill message on routine-xiao-mi-9-pro-drill"
