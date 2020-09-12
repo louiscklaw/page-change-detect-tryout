@@ -26,10 +26,25 @@ jobs:
             ${{ runner.OS }}-build-puppeteer
 
       - run: npm i --no-optional --no-audit puppeteer pixelmatch pngjs
+
       - run: |
           cd check-xiao-mi-9-pro-price
             yarn
             node index.js
+          cd ..
+        env: # Or as an environment variable
+          SLACK_TOKEN: ${{ secrets.SLACK_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          MY_GITHUB_TOKEN: ${{ secrets.MY_GITHUB_TOKEN }}
+
+      - uses: actions/upload-artifact@master
+        with:
+          name: fetch_screencapture
+          path: check-xiao-mi-9-pro-price/*.png
+
+      - run: |
+          cd check-xiao-mi-9-pro-price
+            yarn
             node src/lib/comparePng.js expected-screencapture/redmi-node-9-pro-screencapture.png redmi-node-9-pro-screencapture.png "https://www.mi.com/hk/redmi-note-9-pro/ page changed"
           cd ..
         env: # Or as an environment variable
@@ -39,4 +54,5 @@ jobs:
 
       - uses: actions/upload-artifact@master
         with:
+          name: diff_screencapture
           path: check-xiao-mi-9-pro-price/*.png
