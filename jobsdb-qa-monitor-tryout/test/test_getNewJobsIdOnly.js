@@ -1,9 +1,9 @@
 const fs = require('fs')
-const {SRC_HOME, TEST_HOME, trueIfEqualArray} = require('./common')
+const {SRC_LIB, TEST_HOME, trueIfEqualArray} = require('./common')
 const chalk = require('chalk')
 
 
-const getNewJobsIdOnly = require(`${SRC_HOME}/getNewJobsIdOnly`)
+const getNewJobsIdOnly = require(`${SRC_LIB}/getNewJobsIdOnly`)
 
 function test_getNewJobsIdOnly(){
   var result=getNewJobsIdOnly.getNewJobsIdOnly([1,2,3,4],[1,2])

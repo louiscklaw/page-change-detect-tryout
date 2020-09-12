@@ -1,12 +1,22 @@
 const fs = require('fs')
-const {SRC_HOME, TEST_HOME} = require('./common')
+const {SRC_LIB, TEST_HOME, trueIfEqualArray, JSON_SAMPLE_NEW_JOB_DETAILS} = require('./common')
+const { assert } = require( 'console' )
 
-const parseJobDetail = require(`${SRC_HOME}/parseJobDetail`)
+const parseJobDetail = require(`${SRC_LIB}/parseJobDetail`)
 
-const test_job_detail_json = fs.readFileSync(`${TEST_HOME}/test_job_detail.json`,{encoding:'utf-8'})
+function test_getJobId(){
+  // console.log(parseJobDetail.getJobId(JSON_SAMPLE_NEW_JOB_DETAILS[0]))
+  assert('100003007961010'==parseJobDetail.getJobId(JSON_SAMPLE_NEW_JOB_DETAILS[0]), 'test call getJobData failed')
+}
 
-function getTestJobDetail(){
-  return JSON.parse(test_job_detail_json)
+function test_getCompanyWebsite(){
+  // console.log(parseJobDetail.getCompanyWebsite(JSON_SAMPLE_NEW_JOB_DETAILS[0]))
+  assert('http://www.excel.com.hk'==parseJobDetail.getCompanyWebsite(JSON_SAMPLE_NEW_JOB_DETAILS[0]), 'test call getJobData failed')
+}
+
+function test_getJobTitle(){
+  // console.log(parseJobDetail.getJobTitle(JSON_SAMPLE_NEW_JOB_DETAILS[0]))
+  assert('Project Manager/System Analyst – Quality Assurance for banking project'==parseJobDetail.getJobTitle(JSON_SAMPLE_NEW_JOB_DETAILS[0]), 'test call getJobTitle failed')
 }
 
 function test_sayHelloworld(){
@@ -15,6 +25,10 @@ function test_sayHelloworld(){
 
 function test(){
   test_sayHelloworld()
+  // getTestJobDetail()
+  test_getJobId()
+  test_getCompanyWebsite()
+  test_getJobTitle()
 }
 
 module.exports={

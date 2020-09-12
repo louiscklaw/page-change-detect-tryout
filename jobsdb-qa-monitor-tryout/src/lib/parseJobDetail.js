@@ -1,4 +1,3 @@
-const fs = require('fs')
 const path = require('path')
 
 function getJobData(json_in){
@@ -53,8 +52,7 @@ function sayHelloworld(){
   console.log(`helloworld from ${path.basename(__filename)}`)
 }
 
-
-module.exports={
+module.exports = {
   sayHelloworld,
   getJobDescription,
   getJobData,
