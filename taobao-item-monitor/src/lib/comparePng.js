@@ -72,6 +72,9 @@ if (process.argv){
         console.log('Message sent: ', res.ts);
       })(alert_message);
 
+      console.assert(false,'difference found.')
+      process.exit(-1)
+
     }else{
       console.log('the screen capture are the same.')
     }
