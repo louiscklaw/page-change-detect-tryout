@@ -10,6 +10,8 @@ const tidyParagraph = (para_in) => {
 async function xiaomiPriceChangeCheck() {
   const browser = await puppeteer.launch({
     ignoreHTTPSErrors: true,
+    headless: true,
+    args: ['--no-sandbox', '--disable-setuid-sandbox', '--font-render-hinting=medium'],
     defaultViewport: {
       width: 1920,
       height:1080*10

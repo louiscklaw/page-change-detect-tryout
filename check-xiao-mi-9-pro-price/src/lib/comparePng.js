@@ -63,6 +63,7 @@ if (process.argv){
     const compare_result = compare_png(expected_png_filepath, actual_png_filepath)
 
     if (compare_result > 10){
+      console.log(`pixel difference: ${compare_result}`)
 
       (async (message) => {
         // See: https://api.slack.com/methods/chat.postMessage

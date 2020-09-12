@@ -6,7 +6,7 @@ set -ex
 yarn
 
 # update the screen capture
-node index.js
+# node index.js
 
 # # compare screen capture, send message if not match
 node src/lib/comparePng.js expected-screencapture/expected.png current_capture.png "message"
