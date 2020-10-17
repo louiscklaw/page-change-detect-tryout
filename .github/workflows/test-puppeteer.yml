@@ -3,7 +3,8 @@
 
 name: test-puppeteer
 
-on: [push]
+on:
+  push:
 
 jobs:
   test-puppeteer:
